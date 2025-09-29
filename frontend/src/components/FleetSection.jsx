@@ -70,7 +70,7 @@ const FleetSection = () => {
             </div>
             <div className="absolute -bottom-6 -right-6 bg-white rounded-2xl p-6 shadow-xl border border-gray-100">
               <div className="text-center">
-                <div className="text-3xl font-bold text-[#00BFFF] mb-1">15+</div>
+                <div className="text-3xl font-bold text-[#00BFFF] mb-1">5+</div>
                 <div className="text-sm text-gray-600">Camiões Ativos</div>
               </div>
             </div>
