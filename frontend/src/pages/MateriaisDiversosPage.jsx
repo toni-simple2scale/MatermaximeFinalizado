@@ -20,56 +20,48 @@ const MateriaisDiversosPage = () => {
     {
       name: 'Cal Hidráulica',
       description: 'Cal hidráulica para argamassas tradicionais e restauro.',
-      price: 'A partir de €6.50/saco 25kg',
       specs: 'NHL 2, NHL 3.5, NHL 5 | Embalagem: 25kg | Cor natural',
       applications: ['Argamassas tradicionais', 'Restauro', 'Rebocos antigos', 'Juntas de pedra']
     },
     {
       name: 'Gesso de Construção',
       description: 'Gesso em pó para rebocos interiores e acabamentos.',
-      price: 'A partir de €4.20/saco 25kg',
       specs: 'Gesso B1 | Embalagem: 25kg | Tempo: 45-90min',
       applications: ['Rebocos interiores', 'Acabamentos', 'Molduras', 'Decoração']
     },
     {
       name: 'Argamassa Cola',
       description: 'Argamassa pronta para assentamento de azulejos.',
-      price: 'A partir de €12.80/saco 25kg',
       specs: 'C2 TE | Embalagem: 25kg | Rendimento: ~4m²',
       applications: ['Azulejos interiores', 'Cerâmico', 'Pedra natural', 'Pavimentos']
     },
     {
       name: 'Argamassa Reboco',
       description: 'Argamassa pronta para rebocos exteriores e interiores.',
-      price: 'A partir de €8.90/saco 25kg',
       specs: 'Tipo GP | Embalagem: 25kg | Aplicação: manual/projeção',
       applications: ['Rebocos exteriores', 'Rebocos interiores', 'Regularização', 'Base para pintura']
     },
     {
       name: 'Isolamento XPS',
       description: 'Placas de poliestireno extrudido para isolamento térmico.',
-      price: 'A partir de €12.50/m²',
       specs: 'Espessuras: 20-100mm | Resistência: 300kPa | Formato: 60x125cm',
       applications: ['Isolamento térmico', 'Coberturas', 'Pavimentos', 'Fundações']
     },
     {
       name: 'Lã de Rocha',
       description: 'Painéis de lã de rocha para isolamento térmico e acústico.',
-      price: 'A partir de €8.20/m²',
       specs: 'Espessuras: 40-200mm | Densidade: 120kg/m³ | Formato: 60x100cm',
       applications: ['Isolamento térmico', 'Isolamento acústico', 'Paredes', 'Coberturas']
     },
     {
       name: 'Membrana Betuminosa',
       description: 'Membrana impermeabilizante para coberturas e fundações.',
-      price: 'A partir de €15.00/m²',
       specs: 'SBS modificada | Espessura: 4mm | Largura: 1m | Armadura: poliéster',
       applications: ['Impermeabilização', 'Coberturas planas', 'Fundações', 'Terraços']
     },
     {
       name: 'Betume de Alcatrão',
       description: 'Primário betuminoso para preparação de superfícies.',
-      price: 'A partir de €3.80/litro',
       specs: 'Solvente | Embalagem: 5L, 20L | Secagem: 2-4h',
       applications: ['Primário', 'Impermeabilização', 'Reparações', 'Colagem membranas']
     }
