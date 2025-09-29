@@ -112,20 +112,6 @@ const AboutSection = () => {
             </div>
           </div>
         </div>
-
-        {/* Team CTA */}
-        <div className="text-center bg-white/70 backdrop-blur-sm rounded-3xl p-8 md:p-12 shadow-lg border border-gray-200/50">
-          <h3 className="text-3xl font-bold text-gray-900 mb-4">
-            Conheça a Nossa <span className="text-[#00BFFF]">Equipa</span>
-          </h3>
-          <p className="text-gray-600 mb-6 max-w-2xl mx-auto">
-            Uma equipa experiente e dedicada, pronta para ajudar com as suas necessidades 
-            de materiais de construção e encontrar as melhores soluções para o seu projeto.
-          </p>
-          <Button className="bg-[#00BFFF] hover:bg-[#0099CC] text-white px-8 py-3 rounded-xl font-semibold transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5">
-            Falar com a Equipa
-          </Button>
-        </div>
       </div>
     </section>
   );
