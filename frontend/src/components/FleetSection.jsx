@@ -23,7 +23,7 @@ const FleetSection = () => {
     {
       id: 3,
       name: 'Camiões Pesados',
-      capacity: '15+ toneladas',
+      capacity: '10+ toneladas',
       description: 'Para grandes obras e entregas de grande volume.',
       features: ['Alto volume', 'Grandes obras', 'Máxima capacidade'],
       icon: '🚚'
