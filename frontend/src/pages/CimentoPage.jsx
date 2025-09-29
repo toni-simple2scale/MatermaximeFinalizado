@@ -20,35 +20,30 @@ const CimentoPage = () => {
     {
       name: 'Cimento Portland 32.5',
       description: 'Cimento de uso geral para aplicações correntes de construção.',
-      price: 'A partir de €8.50/saco 25kg',
       specs: 'Classe: 32.5N | Embalagem: 25kg | Paletes: 40 sacos',
       applications: ['Argamassas', 'Rebocos', 'Alvenarias', 'Pequenas betonagens']
     },
     {
       name: 'Cimento Portland 42.5',
       description: 'Cimento de alta resistência para betões estruturais.',
-      price: 'A partir de €9.20/saco 25kg',
       specs: 'Classe: 42.5R | Embalagem: 25kg | Paletes: 40 sacos',
       applications: ['Betão estrutural', 'Pré-fabricados', 'Pavimentações', 'Fundações']
     },
     {
       name: 'Cimento Branco',
       description: 'Cimento branco para acabamentos decorativos e arquitetónicos.',
-      price: 'A partir de €12.80/saco 25kg',
       specs: 'Classe: 42.5R Branco | Embalagem: 25kg | Paletes: 40 sacos',
       applications: ['Acabamentos decorativos', 'Juntas', 'Elementos arquitetónicos', 'Fachadas']
     },
     {
       name: 'Cimento Cola',
       description: 'Cimento-cola para assentamento de azulejos e revestimentos.',
-      price: 'A partir de €15.50/saco 25kg',
       specs: 'Classe: C2T | Embalagem: 25kg | Rendimento: ~4m² por saco',
       applications: ['Azulejos', 'Cerâmico', 'Pedra natural', 'Revestimentos']
     },
     {
       name: 'Cimento Refractário',
       description: 'Cimento especial resistente ao calor e altas temperaturas.',
-      price: 'A partir de €18.00/saco 25kg',
       specs: 'Resistente até 1200°C | Embalagem: 25kg',
       applications: ['Fornos', 'Lareiras', 'Chaminés', 'Aplicações industriais']
     }
