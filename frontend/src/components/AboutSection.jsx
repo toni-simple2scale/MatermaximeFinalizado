@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from './ui/button';
-import { Building, Users, Truck, Award } from 'lucide-react';
+import { Building, Users, Truck, Award, Shield, Target } from 'lucide-react';
 
 const AboutSection = () => {
   return (
