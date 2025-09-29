@@ -112,6 +112,60 @@ const AboutSection = () => {
             </div>
           </div>
         </div>
+
+        {/* Values Section */}
+        <div className="mt-20 bg-gradient-to-br from-gray-50 to-blue-50 rounded-3xl p-8 md:p-12">
+          <div className="text-center mb-12">
+            <h3 className="text-3xl font-bold text-gray-900 mb-4">
+              Os Nossos <span className="text-[#00BFFF]">Valores</span>
+            </h3>
+            <p className="text-gray-600 max-w-2xl mx-auto">
+              Guiamos o nosso trabalho por princípios sólidos que garantem 
+              a satisfação e confiança dos nossos clientes.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-8">
+            <div className="text-center">
+              <div className="bg-white/70 rounded-2xl p-6 shadow-lg border border-gray-200/50">
+                <div className="w-16 h-16 bg-[#00BFFF]/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Shield className="h-8 w-8 text-[#00BFFF]" />
+                </div>
+                <h4 className="text-xl font-bold text-gray-900 mb-3">Qualidade</h4>
+                <p className="text-gray-600 text-sm leading-relaxed">
+                  Selecionamos rigorosamente todos os materiais, garantindo que cumprem 
+                  as normas mais exigentes de qualidade e durabilidade.
+                </p>
+              </div>
+            </div>
+
+            <div className="text-center">
+              <div className="bg-white/70 rounded-2xl p-6 shadow-lg border border-gray-200/50">
+                <div className="w-16 h-16 bg-[#00BFFF]/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Target className="h-8 w-8 text-[#00BFFF]" />
+                </div>
+                <h4 className="text-xl font-bold text-gray-900 mb-3">Compromisso</h4>
+                <p className="text-gray-600 text-sm leading-relaxed">
+                  Cumprimos sempre os prazos acordados e mantemos a nossa palavra. 
+                  O seu projeto é a nossa prioridade.
+                </p>
+              </div>
+            </div>
+
+            <div className="text-center">
+              <div className="bg-white/70 rounded-2xl p-6 shadow-lg border border-gray-200/50">
+                <div className="w-16 h-16 bg-[#00BFFF]/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Users className="h-8 w-8 text-[#00BFFF]" />
+                </div>
+                <h4 className="text-xl font-bold text-gray-900 mb-3">Relação</h4>
+                <p className="text-gray-600 text-sm leading-relaxed">
+                  Construímos relações de longo prazo baseadas na confiança, 
+                  transparência e excelência no atendimento.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );
