@@ -20,36 +20,31 @@ const TubagensPage = () => {
     {
       name: 'Tubo PVC Águas',
       description: 'Tubos de PVC para instalações de água potável.',
-      price: 'A partir de €1.20/metro',
-      specs: 'Diâmetros: Ø16 a Ø110mm | PN16 | Cor azul',
+      specs: 'Diâmetros: ø16 a ø110mm | PN16 | Cor azul',
       applications: ['Água potável', 'Redes prediais', 'Irrigação', 'Piscinas']
     },
     {
       name: 'Tubo PVC Esgotos',
       description: 'Tubos de PVC para redes de esgotos e águas pluviais.',
-      price: 'A partir de €2.50/metro',
-      specs: 'Diâmetros: Ø50 a Ø400mm | SN2/SN4 | Cor laranja/cinza',
+      specs: 'Diâmetros: ø50 a ø400mm | SN2/SN4 | Cor laranja/cinza',
       applications: ['Esgotos domésticos', 'Águas pluviais', 'Drenagem', 'Coletores']
     },
     {
       name: 'Tubo Corrugado',
       description: 'Tubo corrugado flexível para proteção de cabos.',
-      price: 'A partir de €0.85/metro',
-      specs: 'Diâmetros: Ø16 a Ø63mm | Dupla parede | Flexível',
+      specs: 'Diâmetros: ø16 a ø63mm | Dupla parede | Flexível',
       applications: ['Proteção cabos', 'Instalações elétricas', 'Telecomunicações', 'Enterramento']
     },
     {
       name: 'Tubo Multicamadas',
       description: 'Tubo compósito para instalações de aquecimento e águas.',
-      price: 'A partir de €3.80/metro',
-      specs: 'Diâmetros: Ø16 a Ø63mm | PEX-Al-PEX | 95°C máx',
+      specs: 'Diâmetros: ø16 a ø63mm | PEX-Al-PEX | 95°C máx',
       applications: ['Aquecimento central', 'Águas quentes', 'Ar condicionado', 'Radiadores']
     },
     {
       name: 'Tubo Polietileno PE100',
       description: 'Tubo de polietileno para redes de distribuição de água.',
-      price: 'A partir de €1.95/metro',
-      specs: 'Diâmetros: Ø25 a Ø315mm | PN16 | PE100',
+      specs: 'Diâmetros: ø25 a ø315mm | PN16 | PE100',
       applications: ['Redes públicas', 'Grandes caudais', 'Condutas adutoras', 'Indústria']
     }
   ];
