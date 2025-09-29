@@ -53,8 +53,15 @@ const HeroSection = () => {
               
               <p className="text-xl text-gray-600 leading-relaxed max-w-2xl">
                 Fornecimento e entrega de materiais de construção com frota própria. 
-                Areias, britas, cimento, blocos, tijolos e ferro de construção para obras de qualquer dimensão.
+                Areias, britas, cimento, blocos, tijolos, ferro de construção e muito mais para obras de qualquer dimensão.
               </p>
+              
+              <div className="mt-4 p-4 bg-white/50 backdrop-blur-sm rounded-xl border border-gray-200/50">
+                <p className="text-base text-gray-700 leading-relaxed">
+                  <span className="font-semibold text-[#00BFFF]">💡 Duas opções convenientes:</span> 
+                  Entrega no local da obra ou levantamento nos nossos armazéns.
+                </p>
+              </div>
             </div>
 
             {/* Trust Indicators */}
