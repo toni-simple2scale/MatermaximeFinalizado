@@ -20,35 +20,30 @@ const BlocosTijolosPage = () => {
     {
       name: 'Blocos de Betão',
       description: 'Blocos estruturais de betão para construção de alvenarias.',
-      price: 'A partir de €0.85/unidade',
       specs: 'Dimensões: 20x20x40cm | Peso: ~18kg | Resistência: ≥4 N/mm²',
       applications: ['Paredes estruturais', 'Muros de contenção', 'Fundações', 'Separações']
     },
     {
       name: 'Tijolos Furados',
       description: 'Tijolos cerâmicos furados para alvenarias de enchimento.',
-      price: 'A partir de €0.45/unidade',
       specs: 'Dimensões: 30x20x11cm | Peso: ~2.8kg | 6 furos',
       applications: ['Paredes interiores', 'Divisórias', 'Enchimento', 'Isolamento térmico']
     },
     {
       name: 'Tijolos Maciços',
       description: 'Tijolos cerâmicos maciços de alta resistência.',
-      price: 'A partir de €0.65/unidade',
       specs: 'Dimensões: 25x12x5cm | Peso: ~2.5kg | Maciço',
       applications: ['Acabamentos', 'Revestimentos', 'Elementos decorativos', 'Pavimentos']
     },
     {
       name: 'Blocos Térmicos',
       description: 'Blocos cerâmicos com isolamento térmico integrado.',
-      price: 'A partir de €1.25/unidade',
       specs: 'Dimensões: 30x19x25cm | Peso: ~12kg | Isolamento integrado',
       applications: ['Paredes exteriores', 'Eficiência energética', 'Isolamento térmico', 'Acústico']
     },
     {
       name: 'Blocos Leca',
       description: 'Blocos de argila expandida, leves e isolantes.',
-      price: 'A partir de €1.15/unidade',
       specs: 'Dimensões: 50x20x20cm | Peso: ~8kg | Argila expandida',
       applications: ['Isolamento', 'Lajes', 'Enchimentos', 'Aplicações especiais']
     }
