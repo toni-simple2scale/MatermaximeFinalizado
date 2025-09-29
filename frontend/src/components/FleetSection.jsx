@@ -158,16 +158,6 @@ const FleetSection = () => {
                 ))}
               </div>
             </div>
-            <div className="text-center">
-              <div className="bg-gradient-to-br from-[#00BFFF]/10 to-blue-100 rounded-2xl p-8">
-                <Truck className="h-16 w-16 text-[#00BFFF] mx-auto mb-4" />
-                <h4 className="text-xl font-bold text-gray-900 mb-2">Entrega Express</h4>
-                <p className="text-gray-600 text-sm mb-4">Para pedidos urgentes</p>
-                <Button className="bg-[#00BFFF] hover:bg-[#0099CC] text-white px-6 py-2 rounded-xl font-semibold transition-all duration-300 shadow-lg hover:shadow-xl">
-                  Solicitar Entrega
-                </Button>
-              </div>
-            </div>
           </div>
         </div>
       </div>
