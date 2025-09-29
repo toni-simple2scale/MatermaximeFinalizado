@@ -20,42 +20,36 @@ const FerroPage = () => {
     {
       name: 'Varão Ø6mm',
       description: 'Varão de ferro nervurado para armaduras leves e estribos.',
-      price: 'A partir de €0.45/kg',
       specs: 'Diâmetro: 6mm | Comprimento: 12m | Peso: 2.22kg por vara',
       applications: ['Estribos', 'Armaduras leves', 'Malhas de distribuição', 'Elementos secundários']
     },
     {
       name: 'Varão Ø8mm', 
       description: 'Varão de aço para armaduras estruturais de pequeno porte.',
-      price: 'A partir de €0.42/kg',
       specs: 'Diâmetro: 8mm | Comprimento: 12m | Peso: 3.95kg por vara',
       applications: ['Lajes', 'Vigas pequenas', 'Pilares', 'Armaduras principais']
     },
     {
       name: 'Varão Ø10mm',
       description: 'Varão estrutural para elementos de betão armado.',
-      price: 'A partir de €0.41/kg', 
       specs: 'Diâmetro: 10mm | Comprimento: 12m | Peso: 6.17kg por vara',
       applications: ['Lajes estruturais', 'Vigas', 'Pilares', 'Fundações']
     },
     {
       name: 'Varão Ø12mm',
       description: 'Varão de alta resistência para estruturas principais.',
-      price: 'A partir de €0.40/kg',
       specs: 'Diâmetro: 12mm | Comprimento: 12m | Peso: 8.89kg por vara', 
       applications: ['Estruturas principais', 'Fundações pesadas', 'Vigas principais', 'Pilares estruturais']
     },
     {
       name: 'Rede Electrossoldada',
       description: 'Malha de aço soldada para lajes e pavimentos.',
-      price: 'A partir de €3.50/m²',
       specs: 'Malha: 15x15cm | Ø6mm | Dimensões: 2.4x6m | Peso: ~25kg por painel',
       applications: ['Lajes', 'Pavimentos industriais', 'Estradas', 'Reforços estruturais']
     },
     {
       name: 'Varão Ø16mm',
       description: 'Varão de grande diâmetro para estruturas pesadas.',
-      price: 'A partir de €0.39/kg',
       specs: 'Diâmetro: 16mm | Comprimento: 12m | Peso: 15.77kg por vara',
       applications: ['Grandes estruturas', 'Pontes', 'Edifícios industriais', 'Fundações especiais']
     }
