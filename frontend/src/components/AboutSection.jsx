@@ -87,7 +87,7 @@ const AboutSection = () => {
               
               <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 text-center shadow-lg border border-gray-200/50">
                 <Truck className="h-8 w-8 text-[#00BFFF] mx-auto mb-3" />
-                <div className="text-3xl font-bold text-gray-900 mb-1">15+</div>
+                <div className="text-3xl font-bold text-gray-900 mb-1">5+</div>
                 <div className="text-sm text-gray-600">Camiões Próprios</div>
               </div>
               
