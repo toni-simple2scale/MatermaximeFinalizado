@@ -102,7 +102,6 @@ const TubagensPage = () => {
                     <div>
                       <h3 className="text-2xl font-bold text-gray-900 mb-3">{product.name}</h3>
                       <p className="text-gray-600 mb-4">{product.description}</p>
-                      <div className="text-lg font-semibold text-[#00BFFF] mb-4">{product.price}</div>
                       <div className="text-sm text-gray-500 mb-4">{product.specs}</div>
                     </div>
                     <div>
