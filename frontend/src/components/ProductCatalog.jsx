@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button } from './ui/button';
 import { ArrowRight } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const ProductCatalog = () => {
   const products = [
@@ -9,42 +10,48 @@ const ProductCatalog = () => {
       title: 'Agregados',
       description: 'Areias, britas e cascalho de diferentes granulometrias para todas as aplicações.',
       image: 'https://images.unsplash.com/photo-1672541298906-4aeb3edd3520',
-      items: ['Areia fina', 'Areia grossa', 'Brita 1', 'Brita 2', 'Cascalho']
+      items: ['Areia fina', 'Areia grossa', 'Brita 1', 'Brita 2', 'Cascalho'],
+      link: '/produtos/agregados'
     },
     {
       id: 2,
       title: 'Cimento',
       description: 'Cimento Portland de alta qualidade das melhores marcas nacionais.',
       image: 'https://images.pexels.com/photos/159045/the-interior-of-the-repair-interior-design-159045.jpeg',
-      items: ['Cimento 32.5', 'Cimento 42.5', 'Cimento Branco', 'Cimento Cola']
+      items: ['Cimento 32.5', 'Cimento 42.5', 'Cimento Branco', 'Cimento Cola'],
+      link: '/produtos/cimento'
     },
     {
       id: 3,
       title: 'Blocos e Tijolos',
       description: 'Ampla variedade de blocos e tijolos para construção e acabamentos.',
       image: 'https://images.unsplash.com/photo-1637241612956-b7309005288b',
-      items: ['Blocos de betão', 'Tijolos furados', 'Tijolos maciços', 'Blocos térmicos']
+      items: ['Blocos de betão', 'Tijolos furados', 'Tijolos maciços', 'Blocos térmicos'],
+      link: '/produtos/blocos-tijolos'
     },
     {
       id: 4,
       title: 'Ferro de Construção',
       description: 'Varão de ferro de alta resistência em diferentes diâmetros.',
       image: 'https://images.pexels.com/photos/46167/iron-rods-reinforcing-bars-rods-steel-bars-46167.jpeg',
-      items: ['Varão ø6mm', 'Varão ø8mm', 'Varão ø10mm', 'Varão ø12mm', 'Rede electrossoldada']
+      items: ['Varão ø6mm', 'Varão ø8mm', 'Varão ø10mm', 'Varão ø12mm', 'Rede electrossoldada'],
+      link: '/produtos/ferro'
     },
     {
       id: 5,
       title: 'Tubagens',
       description: 'Tubos para águas, esgotos e instalações diversas.',
       image: 'https://images.unsplash.com/photo-1580810734898-5e1753f23337',
-      items: ['Tubo PVC', 'Tubo corrugado', 'Tubo multicamadas', 'Acessórios']
+      items: ['Tubo PVC', 'Tubo corrugado', 'Tubo multicamadas', 'Acessórios'],
+      link: '/produtos/tubagens'
     },
     {
       id: 6,
       title: 'Materiais Diversos',
       description: 'Outros materiais essenciais para a sua obra.',
       image: 'https://images.unsplash.com/photo-1629608564457-5d74829a9e14',
-      items: ['Cal hidráulica', 'Gesso', 'Argamassas', 'Isolamentos']
+      items: ['Cal hidráulica', 'Gesso', 'Argamassas', 'Isolamentos'],
+      link: '/produtos/materiais-diversos'
     }
   ];
 
