@@ -133,12 +133,9 @@ const ProductCatalog = () => {
           <p className="text-gray-600 mb-6 max-w-2xl mx-auto">
             Temos muito mais produtos disponíveis. Entre em contacto connosco para uma consulta personalizada.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex justify-center">
             <Button className="bg-[#00BFFF] hover:bg-[#0099CC] text-white px-8 py-3 rounded-xl font-semibold transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5">
               Contactar Agora
-            </Button>
-            <Button variant="outline" className="border-2 border-[#00BFFF] text-[#00BFFF] hover:bg-[#00BFFF] hover:text-white px-8 py-3 rounded-xl font-semibold transition-all duration-300">
-              Ver Catálogo Completo
             </Button>
           </div>
         </div>
