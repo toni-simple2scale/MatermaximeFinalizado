@@ -15,6 +15,14 @@ import Footer from "./components/Footer";
 import WhatsAppButton from "./components/WhatsAppButton";
 import { Toaster } from "./components/ui/sonner";
 
+// Product pages
+import AgregadosPage from "./pages/AgregadosPage";
+import CimentoPage from "./pages/CimentoPage";
+import BlocosTijolosPage from "./pages/BlocosTijolosPage";
+import FerroPage from "./pages/FerroPage";
+import TubagensPage from "./pages/TubagensPage";
+import MateriaisDiversosPage from "./pages/MateriaisDiversosPage";
+
 const HomePage = () => {
   return (
     <div className="min-h-screen">
@@ -40,6 +48,12 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<HomePage />} />
+          <Route path="/produtos/agregados" element={<AgregadosPage />} />
+          <Route path="/produtos/cimento" element={<CimentoPage />} />
+          <Route path="/produtos/blocos-tijolos" element={<BlocosTijolosPage />} />
+          <Route path="/produtos/ferro" element={<FerroPage />} />
+          <Route path="/produtos/tubagens" element={<TubagensPage />} />
+          <Route path="/produtos/materiais-diversos" element={<MateriaisDiversosPage />} />
         </Routes>
       </BrowserRouter>
       <Toaster position="top-right" />
