@@ -2,6 +2,7 @@ import React from 'react';
 import { Button } from './ui/button';
 import { ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const ProductCatalog = () => {
   const products = [
