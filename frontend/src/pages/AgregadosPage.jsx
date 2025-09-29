@@ -20,35 +20,30 @@ const AgregadosPage = () => {
     {
       name: 'Areia Fina',
       description: 'Areia com granulometria fina, ideal para rebocos e acabamentos.',
-      price: 'A partir de €25/m³',
       specs: 'Granulometria: 0-2mm | Densidade: 1.6 t/m³',
       applications: ['Rebocos', 'Argamassas', 'Acabamentos', 'Assentamento de tijolos']
     },
     {
       name: 'Areia Grossa',
       description: 'Areia com granulometria grossa para betões e fundações.',
-      price: 'A partir de €22/m³',
       specs: 'Granulometria: 0-5mm | Densidade: 1.7 t/m³',
       applications: ['Betão', 'Fundações', 'Pavimentações', 'Drenagens']
     },
     {
       name: 'Brita 1',
       description: 'Pedra britada de primeira qualidade para betão estrutural.',
-      price: 'A partir de €28/m³',
       specs: 'Granulometria: 5-15mm | Densidade: 1.5 t/m³',
       applications: ['Betão estrutural', 'Pavimentos', 'Drenagem', 'Filtros']
     },
     {
       name: 'Brita 2',
       description: 'Pedra britada para aplicações de maior calibre.',
-      price: 'A partir de €30/m³',
       specs: 'Granulometria: 15-25mm | Densidade: 1.5 t/m³',
       applications: ['Betão pesado', 'Fundações', 'Aterros', 'Drenagem pesada']
     },
     {
       name: 'Cascalho',
       description: 'Material natural para diversos fins construtivos.',
-      price: 'A partir de €20/m³',
       specs: 'Granulometria variada | Densidade: 1.6 t/m³',
       applications: ['Aterros', 'Caminhos', 'Drenagem', 'Paisagismo']
     }
