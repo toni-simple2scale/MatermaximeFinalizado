@@ -115,10 +115,12 @@ const ProductCatalog = () => {
                 </div>
 
                 {/* CTA Button */}
-                <Button className="w-full bg-gray-50 hover:bg-[#00BFFF] text-gray-700 hover:text-white border border-gray-200 hover:border-[#00BFFF] transition-all duration-300 group/btn">
-                  <span>Ver Detalhes</span>
-                  <ArrowRight className="ml-2 h-4 w-4 transition-transform duration-200 group-hover/btn:translate-x-1" />
-                </Button>
+                <Link to={product.link}>
+                  <Button className="w-full bg-gray-50 hover:bg-[#00BFFF] text-gray-700 hover:text-white border border-gray-200 hover:border-[#00BFFF] transition-all duration-300 group/btn">
+                    <span>Ver Detalhes</span>
+                    <ArrowRight className="ml-2 h-4 w-4 transition-transform duration-200 group-hover/btn:translate-x-1" />
+                  </Button>
+                </Link>
               </div>
             </div>
           ))}
