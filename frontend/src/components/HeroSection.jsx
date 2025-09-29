@@ -63,7 +63,7 @@ const HeroSection = () => {
                 <div className="flex justify-center mb-2">
                   <Truck className="h-8 w-8 text-[#00BFFF]" />
                 </div>
-                <div className="text-2xl font-bold text-gray-900">15+</div>
+                <div className="text-2xl font-bold text-gray-900">5+</div>
                 <div className="text-sm text-gray-600">Camiões</div>
               </div>
               <div className="text-center">
