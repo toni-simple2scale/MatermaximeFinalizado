@@ -52,7 +52,7 @@ const FleetSection = () => {
             Entrega <span className="text-[#00BFFF]">Garantida</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Frota própria com mais de 15 camiões de diferentes capacidades 
+            Frota própria com mais de 5 camiões de diferentes capacidades 
             para garantir a entrega dos seus materiais no local e horário certos.
           </p>
         </div>
