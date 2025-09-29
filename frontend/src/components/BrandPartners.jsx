@@ -83,14 +83,6 @@ const BrandPartners = () => {
             </div>
           </div>
         </div>
-
-        {/* Coming Soon Notice */}
-        <div className="text-center mt-12 bg-white/70 backdrop-blur-sm rounded-2xl p-6 border border-gray-200/50">
-          <p className="text-gray-600 text-sm">
-            <span className="font-medium text-gray-800">Nota:</span> Logos das marcas parceiras serão adicionados em breve. 
-            Para informações sobre marcas específicas, contacte-nos diretamente.
-          </p>
-        </div>
       </div>
     </section>
   );
