@@ -34,14 +34,6 @@ const BusinessHours = () => {
                 </div>
                 <p className="text-sm text-gray-600">Atendimento e entregas (mediante agendamento)</p>
               </div>
-
-              <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-gray-200/50">
-                <div className="flex items-center justify-between mb-2">
-                  <span className="font-semibold text-gray-900">Domingo</span>
-                  <span className="text-red-500 font-bold">{companyInfo.businessHours.sunday}</span>
-                </div>
-                <p className="text-sm text-gray-600">Entregas urgentes (custo adicional)</p>
-              </div>
             </div>
           </div>
 
