@@ -52,14 +52,9 @@ const AboutSection = () => {
 
             <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-gray-200/50">
               <h4 className="font-bold text-gray-900 mb-3">Missão</h4>
-              <p className="text-gray-600 text-sm leading-relaxed mb-4">
+              <p className="text-gray-600 text-sm leading-relaxed">
                 Fornecer materiais de construção de qualidade superior com serviço 
                 excecional, contribuindo para o sucesso dos projetos dos nossos clientes.
-              </p>
-              <h4 className="font-bold text-gray-900 mb-3">Visão</h4>
-              <p className="text-gray-600 text-sm leading-relaxed">
-                Ser a empresa de referência no fornecimento de materiais de construção 
-                na Grande Lisboa, reconhecida pela excelência e inovação.
               </p>
             </div>
           </div>
