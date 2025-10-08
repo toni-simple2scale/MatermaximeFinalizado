@@ -59,13 +59,13 @@ const Footer = () => {
                 superior com entrega garantida em toda a região de Lisboa.
               </p>
               <div className="flex space-x-4">
-                <a href="#" className="bg-gray-800 hover:bg-[#00BFFF] p-3 rounded-full transition-colors duration-300">
+                <a href="https://www.facebook.com/profile.php?id=61577107497968" target="_blank" rel="noopener noreferrer" className="bg-gray-800 hover:bg-[#00BFFF] p-3 rounded-full transition-colors duration-300">
                   <Facebook className="h-5 w-5" />
                 </a>
-                <a href="#" className="bg-gray-800 hover:bg-[#00BFFF] p-3 rounded-full transition-colors duration-300">
+                <a href="https://www.instagram.com/matermaxime_/?hl=en" target="_blank" rel="noopener noreferrer" className="bg-gray-800 hover:bg-[#00BFFF] p-3 rounded-full transition-colors duration-300">
                   <Instagram className="h-5 w-5" />
                 </a>
-                <a href="#" className="bg-gray-800 hover:bg-[#00BFFF] p-3 rounded-full transition-colors duration-300">
+                <a href="https://www.linkedin.com/in/matermaxime-lda-2b586630/" target="_blank" rel="noopener noreferrer" className="bg-gray-800 hover:bg-[#00BFFF] p-3 rounded-full transition-colors duration-300">
                   <Linkedin className="h-5 w-5" />
                 </a>
               </div>
