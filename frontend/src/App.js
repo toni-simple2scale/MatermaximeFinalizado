@@ -8,7 +8,6 @@ import FleetSection from "./components/FleetSection";
 import BrandPartners from "./components/BrandPartners";
 import TestimonialsSection from "./components/TestimonialsSection";
 import BusinessHours from "./components/BusinessHours";
-import CertificationsSection from "./components/CertificationsSection";
 import FAQSection from "./components/FAQSection";
 import AboutSection from "./components/AboutSection";
 import Footer from "./components/Footer";
