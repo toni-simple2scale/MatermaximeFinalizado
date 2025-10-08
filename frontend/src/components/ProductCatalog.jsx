@@ -49,7 +49,7 @@ const ProductCatalog = () => {
       id: 6,
       title: 'Materiais Diversos',
       description: 'Outros materiais essenciais para a sua obra.',
-      image: 'https://images.unsplash.com/photo-1629608564457-5d74829a9e14',
+      image: 'https://images.pexels.com/photos/5079124/pexels-photo-5079124.jpeg',
       items: ['Cal hidráulica', 'Gesso', 'Argamassas', 'Isolamentos'],
       link: '/produtos/materiais-diversos'
     }
