@@ -79,17 +79,17 @@ export const faqData = [
   {
     id: 2,
     question: "Existe pedido mínimo?",
-    answer: "Não temos pedido mínimo obrigatório, mas para entregas de pequenos volumes pode aplicar-se uma taxa de entrega. Consulte-nos para mais detalhes."
+    answer: "Não temos pedido mínimo obrigatório, mas cargas não completas podem ter custos de transporte mais elevados. Consulte-nos para mais detalhes."
   },
   {
     id: 3,
     question: "Que formas de pagamento aceitam?",
-    answer: "Aceitamos dinheiro, transferência bancária, multibanco e cartões de crédito/débito. Para clientes regulares, oferecemos também condições de pagamento a prazo."
+    answer: "Aceitamos dinheiro, transferência bancária, multibanco e cartões de crédito/débito. Para clientes regulares, oferecemos também condições de pagamento a prazo. Sob consulta."
   },
   {
     id: 4,
     question: "Fazem entregas ao fim de semana?",
-    answer: "Entregas ao sábado são possíveis mediante agendamento prévio. Aos domingos não fazemos entregas, exceto em casos de extrema urgência com custo adicional."
+    answer: "Entregas ao sábado são possíveis mediante agendamento prévio."
   },
   {
     id: 5,
@@ -99,7 +99,7 @@ export const faqData = [
   {
     id: 6,
     question: "Oferecem serviço de carga e descarga?",
-    answer: "Sim, todos os nossos camiões incluem serviço de descarga. Para locais de difícil acesso ou necessidades especiais de movimentação, consulte-nos previamente."
+    answer: "Sim, contamos com camiões capacitados para serviço de descarga/carga. Para locais de difícil acesso ou necessidades especiais de movimentação, consulte-nos previamente."
   }
 ];
 
