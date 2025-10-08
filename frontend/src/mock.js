@@ -9,8 +9,7 @@ export const companyInfo = {
   whatsapp: "+351 913 684 059",
   businessHours: {
     weekdays: "08:00 - 19:00",
-    saturday: "09:00 - 13:00",
-    sunday: "Encerrado"
+    saturday: "09:00 - 13:00"
   }
 };
 
