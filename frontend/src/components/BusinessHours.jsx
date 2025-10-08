@@ -88,8 +88,17 @@ const BusinessHours = () => {
                     <MapPin className="h-6 w-6 text-[#00BFFF]" />
                   </div>
                   <div>
-                    <div className="text-sm text-gray-600 mb-1">Morada</div>
-                    <div className="font-bold text-gray-900">{companyInfo.address}</div>
+                    <div className="text-sm text-gray-600 mb-2">Localizações</div>
+                    <div className="font-bold text-gray-900 space-y-2">
+                      <div>
+                        <div className="text-sm text-[#00BFFF] font-semibold">Armazém:</div>
+                        <div className="text-sm">Rua do Alto das Mastrontas Nº8, 2715-311 Almargem do Bispo</div>
+                      </div>
+                      <div>
+                        <div className="text-sm text-[#00BFFF] font-semibold">Loja:</div>
+                        <div className="text-sm">Avenida da Liberdade nº51B, 2715-311 - Pêro Pinheiro</div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
