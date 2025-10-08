@@ -53,11 +53,11 @@ const Footer = () => {
             <div className="lg:col-span-1">
               <div className="flex items-center mb-6">
                 <img 
-                  src="https://customer-assets.emergentagent.com/job_constructsupply/artifacts/eunw1xlm_MATERMAXIME-LOGO-sem-info.png" 
+                  src="https://customer-assets.emergentagent.com/job_constructsupply/artifacts/ma24mup0_MATERMAXIME-LOGO-sem-fundo.png" 
                   alt="Matermaxime Logo" 
-                  className="h-12 w-auto mr-3 filter brightness-0 invert"
+                  className="h-12 w-auto mr-3"
                 />
-                <span className="text-xl font-bold">Matermaxime</span>
+                <span className="text-xl font-bold">Matermaxime, Lda.</span>
               </div>
               <p className="text-gray-300 mb-6 leading-relaxed">
                 Mais de 25 anos a fornecer materiais de construção de qualidade 
