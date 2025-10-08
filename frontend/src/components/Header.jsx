@@ -20,7 +20,7 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center">
             <img 
-              src="https://customer-assets.emergentagent.com/job_constructsupply/artifacts/4nfrio0g_LOGO%20MATERMAXIME.jpg" 
+              src="https://customer-assets.emergentagent.com/job_constructsupply/artifacts/eydx421z_MATERMAXIME-LOGO.png" 
               alt="Matermaxime Logo" 
               className="h-12 w-auto"
             />
