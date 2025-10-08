@@ -22,54 +22,6 @@ const AboutSection = () => {
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 items-center mb-20">
-          {/* Company Story */}
-          <div>
-            <div className="bg-white/80 backdrop-blur-sm rounded-3xl p-8 shadow-lg border border-gray-200/50">
-              <h3 className="text-2xl font-bold text-gray-900 mb-6">A Nossa História</h3>
-              
-              <div className="space-y-6">
-                <div className="flex items-start">
-                  <div className="w-8 h-8 bg-[#00BFFF] rounded-full flex items-center justify-center mr-4 mt-1 flex-shrink-0">
-                    <span className="text-white text-sm font-bold">1</span>
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-gray-900 mb-1">Inícios (1999)</h4>
-                    <p className="text-gray-600 text-sm leading-relaxed">
-                      Começámos como uma pequena empresa familiar, focada no fornecimento 
-                      de materiais básicos para a região de Lisboa.
-                    </p>
-                  </div>
-                </div>
-                
-                <div className="flex items-start">
-                  <div className="w-8 h-8 bg-[#00BFFF] rounded-full flex items-center justify-center mr-4 mt-1 flex-shrink-0">
-                    <span className="text-white text-sm font-bold">2</span>
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-gray-900 mb-1">Expansão (2005-2015)</h4>
-                    <p className="text-gray-600 text-sm leading-relaxed">
-                      Investimos em frota própria e alargámos a gama de produtos, 
-                      tornando-nos distribuidores oficiais de marcas reconhecidas.
-                    </p>
-                  </div>
-                </div>
-                
-                <div className="flex items-start">
-                  <div className="w-8 h-8 bg-[#00BFFF] rounded-full flex items-center justify-center mr-4 mt-1 flex-shrink-0">
-                    <span className="text-white text-sm font-bold">3</span>
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-gray-900 mb-1">Modernização (2016-Hoje)</h4>
-                    <p className="text-gray-600 text-sm leading-relaxed">
-                      Modernizámos processos, obtivemos certificações de qualidade 
-                      e consolidamos a nossa posição como referência no setor.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
           {/* Company Stats */}
           <div>
             <div className="grid grid-cols-2 gap-6 mb-8">
