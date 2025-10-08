@@ -17,7 +17,7 @@ const ProductCatalog = () => {
       id: 2,
       title: 'Cimento',
       description: 'Cimento Portland de alta qualidade das melhores marcas nacionais.',
-      image: 'https://images.pexels.com/photos/159045/the-interior-of-the-repair-interior-design-159045.jpeg',
+      image: 'https://images.unsplash.com/photo-1673865641469-34498379d8af',
       items: ['Cimento 32.5', 'Cimento 42.5', 'Cimento Branco', 'Cimento Cola'],
       link: '/produtos/cimento'
     },
