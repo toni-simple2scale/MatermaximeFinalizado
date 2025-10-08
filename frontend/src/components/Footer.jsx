@@ -51,12 +51,7 @@ const Footer = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {/* Company Info */}
             <div className="lg:col-span-1">
-              <div className="flex items-center mb-6">
-                <img 
-                  src="https://customer-assets.emergentagent.com/job_constructsupply/artifacts/ma24mup0_MATERMAXIME-LOGO-sem-fundo.png" 
-                  alt="Matermaxime Logo" 
-                  className="h-12 w-auto mr-3"
-                />
+              <div className="mb-6">
                 <span className="text-xl font-bold">Matermaxime, Lda.</span>
               </div>
               <p className="text-gray-300 mb-6 leading-relaxed">
