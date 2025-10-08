@@ -2,10 +2,11 @@
 
 export const companyInfo = {
   name: "Matermaxime, Lda.",
-  phone: "+351 21 123 4567",
-  email: "geral@matermaxime.pt",
-  address: "Rua dos Materiais, 123, 1234-567 Lisboa",
-  whatsapp: "+351 91 123 4567",
+  phone: "+351 21 927 9178",
+  mobile: "+351 913 684 059",
+  email: "matermaxime.gomes.j@gmail.com",
+  address: "Armazém: Rua do Alto das Mastrontas Nº8, 2715-311 Almargem do Bispo\nLoja: Avenida da Liberdade nº51B, 2715-311 - Pêro Pinheiro",
+  whatsapp: "+351 913 684 059",
   businessHours: {
     weekdays: "08:00 - 19:00",
     saturday: "09:00 - 13:00",
