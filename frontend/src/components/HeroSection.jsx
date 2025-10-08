@@ -95,7 +95,7 @@ const HeroSection = () => {
                 <Phone className="h-5 w-5 text-[#00BFFF] mr-3" />
                 <div>
                   <div className="text-sm text-gray-600">Contacto de urgência</div>
-                  <div className="text-lg font-semibold text-gray-900">+351 21 123 4567</div>
+                  <div className="text-lg font-semibold text-gray-900">+351 21 927 9178</div>
                 </div>
               </div>
             </div>
