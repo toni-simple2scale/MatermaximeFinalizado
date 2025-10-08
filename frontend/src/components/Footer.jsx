@@ -129,8 +129,15 @@ const Footer = () => {
                 
                 <div className="flex items-start">
                   <MapPin className="h-5 w-5 text-[#00BFFF] mr-3 mt-0.5 flex-shrink-0" />
-                  <div className="text-white leading-relaxed">
-                    {companyInfo.address}
+                  <div className="text-white leading-relaxed space-y-2">
+                    <div>
+                      <div className="text-[#00BFFF] text-sm font-semibold">Armazém:</div>
+                      <div className="text-sm">Rua do Alto das Mastrontas Nº8, 2715-311 Almargem do Bispo</div>
+                    </div>
+                    <div>
+                      <div className="text-[#00BFFF] text-sm font-semibold">Loja:</div>
+                      <div className="text-sm">Avenida da Liberdade nº51B, 2715-311 - Pêro Pinheiro</div>
+                    </div>
                   </div>
                 </div>
               </div>
