@@ -60,7 +60,7 @@ const Footer = () => {
                 <span className="text-xl font-bold">Matermaxime</span>
               </div>
               <p className="text-gray-300 mb-6 leading-relaxed">
-                Mais de 25 anos fornecendo materiais de construção de qualidade 
+                Mais de 25 anos a fornecer materiais de construção de qualidade 
                 superior com entrega garantida em toda a região de Lisboa.
               </p>
               <div className="flex space-x-4">
