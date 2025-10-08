@@ -53,7 +53,7 @@ const Footer = () => {
             <div className="lg:col-span-1">
               <div className="flex items-center mb-6">
                 <img 
-                  src="https://customer-assets.emergentagent.com/job_constructsupply/artifacts/4nfrio0g_LOGO%20MATERMAXIME.jpg" 
+                  src="https://customer-assets.emergentagent.com/job_constructsupply/artifacts/eydx421z_MATERMAXIME-LOGO.png" 
                   alt="Matermaxime Logo" 
                   className="h-12 w-auto mr-3 filter brightness-0 invert"
                 />
