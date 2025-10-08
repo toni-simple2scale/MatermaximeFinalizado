@@ -93,18 +93,6 @@ const BusinessHours = () => {
                   </div>
                 </div>
               </div>
-
-              {/* Emergency Notice */}
-              <div className="mt-6 p-4 bg-gradient-to-r from-red-50 to-orange-50 rounded-xl border border-red-200/50">
-                <div className="flex items-center mb-2">
-                  <div className="w-2 h-2 bg-red-500 rounded-full mr-2"></div>
-                  <span className="text-sm font-semibold text-red-800">Emergências</span>
-                </div>
-                <p className="text-sm text-red-700">
-                  Para situações urgentes fora do horário normal, 
-                  contacte-nos via WhatsApp ou telefone.
-                </p>
-              </div>
             </div>
           </div>
         </div>
