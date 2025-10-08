@@ -33,7 +33,6 @@ const HomePage = () => {
       <BrandPartners />
       <TestimonialsSection />
       <BusinessHours />
-      <CertificationsSection />
       <FAQSection />
       <AboutSection />
       <Footer />
