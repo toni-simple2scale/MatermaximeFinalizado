@@ -241,15 +241,6 @@ const FerroPage = () => {
                 <Button type="submit" className="w-full bg-[#00BFFF] hover:bg-[#0099CC] text-white">
                   Solicitar Orçamento
                 </Button>
-                
-                <Button
-                  type="button"
-                  onClick={() => openWhatsApp('Olá! Gostaria de mais informações sobre ferro de construção.')}
-                  className="w-full bg-[#25D366] hover:bg-[#1da851] text-white"
-                >
-                  <Phone className="mr-2 h-4 w-4" />
-                  WhatsApp
-                </Button>
               </form>
 
               {/* Quick Calculator */}
