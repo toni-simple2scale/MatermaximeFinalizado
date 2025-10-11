@@ -131,7 +131,7 @@ export const brandPartners = [
   { 
     id: 6, 
     name: "COS", 
-    logo: "https://customer-assets.emergentagent.com/job_constructsupply/artifacts/35an6vnw_COS%20FINAL.png" 
+    logo: "https://customer-assets.emergentagent.com/job_constructsupply/artifacts/fjnmqn0b_COS%20FINAL.png" 
   },
   { 
     id: 7, 
