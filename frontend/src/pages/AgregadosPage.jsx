@@ -20,19 +20,19 @@ const AgregadosPage = () => {
     {
       name: 'Areia do Rio',
       description: 'Areia natural extraída de leito de rio, ideal para diversas aplicações.',
-      specs: 'Origem natural | Granulometria variada | Densidade: 1.6 t/m³',
+      specs: 'Origem natural | Granulometria variada',
       applications: ['Betão', 'Argamassas', 'Construção geral', 'Obras hidráulicas']
     },
     {
       name: 'Areia Branca',
       description: 'Areia de cor branca para acabamentos especiais e decorativos.',
-      specs: 'Cor branca | Granulometria fina | Densidade: 1.5 t/m³',
+      specs: 'Cor branca | Granulometria fina',
       applications: ['Acabamentos decorativos', 'Rebocos especiais', 'Argamassas claras', 'Paisagismo']
     },
     {
       name: 'Areia Amarela',
       description: 'Areia de cor amarela para construção e acabamentos.',
-      specs: 'Cor amarela | Granulometria média | Densidade: 1.6 t/m³',
+      specs: 'Cor amarela | Granulometria média',
       applications: ['Construção geral', 'Betão', 'Argamassas', 'Pavimentações']
     },
     {
