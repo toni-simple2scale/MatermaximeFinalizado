@@ -136,7 +136,7 @@ export const brandPartners = [
   { 
     id: 7, 
     name: "Fassa Bortolo", 
-    logo: "https://customer-assets.emergentagent.com/job_constructsupply/artifacts/jsqkzb5b_FASSA%20BARTOLO%20FINAL.png" 
+    logo: "https://customer-assets.emergentagent.com/job_constructsupply/artifacts/9o80rrnj_FASSA%20BARTOLO%20FINAL.png" 
   },
   { 
     id: 8, 
