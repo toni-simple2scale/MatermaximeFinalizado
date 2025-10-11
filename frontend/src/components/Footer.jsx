@@ -24,27 +24,6 @@ const Footer = () => {
 
   return (
     <footer className="bg-gray-900 text-white">
-      {/* WhatsApp CTA Bar */}
-      <div className="bg-[#25D366] py-4">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-col sm:flex-row items-center justify-between">
-            <div className="flex items-center mb-3 sm:mb-0">
-              <div className="text-2xl mr-3">📱</div>
-              <div>
-                <div className="font-bold">Contacto Instantâneo via WhatsApp</div>
-                <div className="text-sm text-green-100">Resposta rápida garantida!</div>
-              </div>
-            </div>
-            <Button 
-              onClick={() => openWhatsApp()}
-              className="bg-white hover:bg-gray-100 text-[#25D366] font-semibold px-6 py-2 rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl"
-            >
-              Conversar Agora
-            </Button>
-          </div>
-        </div>
-      </div>
-
       {/* Main Footer */}
       <div className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
