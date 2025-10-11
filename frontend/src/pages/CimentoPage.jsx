@@ -18,9 +18,9 @@ const CimentoPage = () => {
 
   const cimentos = [
     {
-      name: 'Cimento Secil 25Kg',
+      name: 'Cimento',
       description: 'Cimento Portland de alta qualidade da marca Secil.',
-      specs: 'Embalagem: 25kg | Paletes: 40 sacos',
+      specs: 'Embalagem: 25kg',
       applications: ['Argamassas', 'Rebocos', 'Alvenarias', 'Betonagens gerais']
     },
     {
