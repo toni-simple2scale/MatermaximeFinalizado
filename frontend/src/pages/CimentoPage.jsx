@@ -11,7 +11,7 @@ const CimentoPage = () => {
     name: '',
     phone: '',
     email: '',
-    product: 'Cimento',
+    product: 'Cimentos e Rebocos',
     quantity: '',
     message: ''
   });
