@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button } from './ui/button';
 import { Phone, Mail, MapPin, Facebook, Instagram, Linkedin } from 'lucide-react';
-import { companyInfo, openWhatsApp } from '../mock';
+import { companyInfo } from '../mock';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
