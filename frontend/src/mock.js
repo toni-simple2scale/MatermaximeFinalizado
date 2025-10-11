@@ -5,7 +5,7 @@ export const companyInfo = {
   phone: "+351 21 927 9178",
   mobile: "+351 913 684 059",
   email: "matermaxime.gomes.j@gmail.com",
-  address: "Armazém: Rua do Alto das Mastrontas Nº8, 2715-311 Almargem do Bispo\nLoja: Avenida da Liberdade nº51B, 2715-311 - Pêro Pinheiro",
+  address: "Armazém: Rua do Alto das Mastrontas Nº8, 2715-311 Almargem do Bispo\nLoja: Avenida da Liberdade nº51B, 2715-001 - Pêro Pinheiro",
   whatsapp: "+351 913 684 059",
   businessHours: {
     weekdays: {
