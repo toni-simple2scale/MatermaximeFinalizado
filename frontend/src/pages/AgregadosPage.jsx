@@ -121,6 +121,13 @@ const AgregadosPage = () => {
               ))}
             </div>
 
+            {/* More Options Note */}
+            <div className="mt-8 text-center">
+              <div className="inline-flex items-center px-6 py-3 bg-[#00BFFF]/10 rounded-full border border-[#00BFFF]/20">
+                <span className="text-[#00BFFF] font-semibold">E mais opções sob consulta</span>
+              </div>
+            </div>
+
             {/* Additional Info */}
             <div className="mt-12 bg-gradient-to-r from-gray-50 to-blue-50 rounded-2xl p-8">
               <div className="grid md:grid-cols-2 gap-8">
