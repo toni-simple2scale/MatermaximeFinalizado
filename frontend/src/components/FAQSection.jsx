@@ -2,7 +2,7 @@ import React from 'react';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from './ui/accordion';
 import { Button } from './ui/button';
 import { MessageCircle } from 'lucide-react';
-import { faqData, openWhatsApp } from '../mock';
+import { faqData } from '../mock';
 
 const FAQSection = () => {
   return (
