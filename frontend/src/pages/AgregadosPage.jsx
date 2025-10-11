@@ -2,9 +2,8 @@ import React, { useState } from 'react';
 import { Button } from '../components/ui/button';
 import { Input } from '../components/ui/input';
 import { Textarea } from '../components/ui/textarea';
-import { ArrowLeft, Truck, Shield, Phone, CheckCircle } from 'lucide-react';
+import { ArrowLeft, Truck, Shield, CheckCircle } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import { openWhatsApp } from '../mock';
 
 const AgregadosPage = () => {
   const [quoteForm, setQuoteForm] = useState({
@@ -107,7 +106,7 @@ const AgregadosPage = () => {
                     </div>
                     <div>
                       <h4 className="font-semibold text-gray-900 mb-3">Aplicações:</h4>
-                      <div className="grid grid-cols-2 gap-2">
+                      <div className="grid grid-cols-1 gap-2">
                         {product.applications.map((app, idx) => (
                           <div key={idx} className="flex items-center text-sm text-gray-700">
                             <CheckCircle className="h-4 w-4 text-green-500 mr-2 flex-shrink-0" />
@@ -121,11 +120,11 @@ const AgregadosPage = () => {
               ))}
             </div>
 
-            {/* More Options Note */}
-            <div className="mt-8 text-center">
-              <div className="inline-flex items-center px-6 py-3 bg-[#00BFFF]/10 rounded-full border border-[#00BFFF]/20">
-                <span className="text-[#00BFFF] font-semibold">E mais opções sob consulta</span>
-              </div>
+            {/* Additional Options Note */}
+            <div className="mt-8 p-4 bg-blue-50 rounded-lg border border-blue-200">
+              <p className="text-center text-gray-700 font-medium">
+                E mais opções sob consulta
+              </p>
             </div>
 
             {/* Additional Info */}
@@ -214,15 +213,6 @@ const AgregadosPage = () => {
                 
                 <Button type="submit" className="w-full bg-[#00BFFF] hover:bg-[#0099CC] text-white">
                   Solicitar Orçamento
-                </Button>
-                
-                <Button
-                  type="button"
-                  onClick={() => openWhatsApp('Olá! Gostaria de mais informações sobre agregados.')}
-                  className="w-full bg-[#25D366] hover:bg-[#1da851] text-white"
-                >
-                  <Phone className="mr-2 h-4 w-4" />
-                  WhatsApp
                 </Button>
               </form>
             </div>
