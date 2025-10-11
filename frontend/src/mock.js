@@ -148,23 +148,23 @@ export const brandPartners = [
   },
   { 
     id: 9, 
-    name: "Weber", 
-    logo: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=200&h=100&fit=crop&crop=center" 
+    name: "Italbox", 
+    logo: "https://customer-assets.emergentagent.com/job_matermaxime-build/artifacts/4byoelw1_ITALBOX%20LOGO%20FINAL.png" 
   },
   { 
     id: 10, 
-    name: "Sika", 
-    logo: "https://images.unsplash.com/photo-1586350700733-a754423d4e7f?w=200&h=100&fit=crop&crop=center" 
+    name: "Teka", 
+    logo: "https://customer-assets.emergentagent.com/job_matermaxime-build/artifacts/4ggsl4u2_TEKA%20LOGO%20FINAL.png" 
   },
   { 
     id: 11, 
-    name: "Mapei", 
-    logo: "https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=200&h=100&fit=crop&crop=center" 
+    name: "Macel", 
+    logo: "https://customer-assets.emergentagent.com/job_matermaxime-build/artifacts/r3hxorco_MACEL%20LOGO%20FINAL.png" 
   },
   { 
     id: 12, 
-    name: "Knauf", 
-    logo: "https://images.unsplash.com/photo-1600607687244-e2df6b7c7d1c?w=200&h=100&fit=crop&crop=center" 
+    name: "ACL", 
+    logo: "https://customer-assets.emergentagent.com/job_matermaxime-build/artifacts/yaeobq2i_ACL%20LOGO%20FINAL.png" 
   }
 ];
 
