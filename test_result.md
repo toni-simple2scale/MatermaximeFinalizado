@@ -309,8 +309,22 @@ test_plan:
         -agent: "testing"
         -comment: "Product information displays correctly on all pages. Each page shows detailed product specifications, pricing, applications, and technical information. Product cards are well-structured with proper styling and hover effects. Content is comprehensive and professional."
 
+  - task: "Cimento Page Content Update"
+    implemented: true
+    working: "NA"
+    file: "/app/frontend/src/pages/CimentoPage.jsx"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: true
+    status_history:
+        -working: "NA"
+        -agent: "main"
+        -comment: "Updated Cimento page with new title 'Cimentos e Rebocos', new description, removed specific phrases ('Cimpor - Líder nacional', 'Certificação CE', 'Controlo de prazo de validade'), updated product list with 7 new products (Cimento Secil 25Kg, Cimento Branco, Cimento Cola Branco/Cinza, etc.), and added 'E mais opções sob consulta' note. Form texts also updated to reflect new product category. Visual confirmation completed via screenshots."
+
 agent_communication:
     -agent: "testing"
     -message: "Comprehensive testing completed for Matermaxime construction materials website. All major functionality tested and working correctly. Website demonstrates professional construction industry theme with proper Portuguese language content, responsive design, and functional interactive elements including forms, navigation, and WhatsApp integration."
     -agent: "testing"
     -message: "PRODUCT DETAIL PAGES TESTING COMPLETED SUCCESSFULLY: All 6 product categories (Agregados, Cimento, Blocos e Tijolos, Ferro de Construção, Tubagens, Materiais Diversos) are fully functional. Navigation from Product Catalog section works perfectly, all 'Ver Detalhes' buttons route correctly, 'Voltar ao Catálogo' links work, quote forms are functional with success alerts, WhatsApp buttons are clickable, and product information displays properly. Complete navigation flow tested and working. No critical issues found."
+    -agent: "main"
+    -message: "Updated Cimento page content as requested. Changed title to 'Cimentos e Rebocos', updated description and product list, removed specific phrases, added consultation note. Ready for testing to verify all functionality still works correctly with new content."
