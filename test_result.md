@@ -329,7 +329,22 @@ agent_communication:
     -message: "Comprehensive testing completed for Matermaxime construction materials website. All major functionality tested and working correctly. Website demonstrates professional construction industry theme with proper Portuguese language content, responsive design, and functional interactive elements including forms, navigation, and WhatsApp integration."
     -agent: "testing"
     -message: "PRODUCT DETAIL PAGES TESTING COMPLETED SUCCESSFULLY: All 6 product categories (Agregados, Cimento, Blocos e Tijolos, Ferro de Construção, Tubagens, Materiais Diversos) are fully functional. Navigation from Product Catalog section works perfectly, all 'Ver Detalhes' buttons route correctly, 'Voltar ao Catálogo' links work, quote forms are functional with success alerts, WhatsApp buttons are clickable, and product information displays properly. Complete navigation flow tested and working. No critical issues found."
+  - task: "Product Catalog Consistency Fix"
+    implemented: true
+    working: "NA"
+    file: "/app/frontend/src/components/ProductCatalog.jsx"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: true
+    status_history:
+        -working: "NA"
+        -agent: "main"
+        -comment: "Fixed inconsistencies between main product catalog and individual pages. Updated Agregados items from ['Areia fina', 'Areia grossa', 'Brita 1', 'Brita 2', 'Cascalho'] to ['Areia do Rio', 'Areia Branca', 'Areia Amarela', 'Saibro', 'Brita 1', 'Brita 2', 'Brita 3']. Updated Cimento section title to 'Cimentos e Rebocos' and items to match individual page: ['Cimento Secil 25Kg', 'Cimento Branco', 'Cimento Cola Branco/Cinza', 'Cimento Cola Flexível', 'Reboco Interior', 'Reboco Exterior']. Visual consistency verified via navigation testing."
+
+agent_communication:
     -agent: "main"
     -message: "Updated Cimento page content as requested. Changed title to 'Cimentos e Rebocos', updated description and product list, removed specific phrases, added consultation note. Ready for testing to verify all functionality still works correctly with new content."
     -agent: "testing"
     -message: "CIMENTO PAGE CONTENT UPDATE TESTING COMPLETED SUCCESSFULLY: All requested changes have been verified and are working perfectly. The updated 'Cimentos e Rebocos' page maintains full functionality while displaying all new content correctly. Navigation, forms, responsive design, and all interactive elements work flawlessly with the new content structure. No issues found - ready for production."
+    -agent: "main"
+    -message: "Fixed product catalog consistency issues as reported by user. Main catalog now shows same products as individual pages for both Agregados and Cimentos e Rebocos sections. Navigation tested and working correctly."
