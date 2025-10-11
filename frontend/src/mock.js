@@ -145,6 +145,26 @@ export const brandPartners = [
     id: 8, 
     name: "Secil", 
     logo: "https://customer-assets.emergentagent.com/job_constructsupply/artifacts/p7lg0f8j_SECIL_Logo.png" 
+  },
+  { 
+    id: 9, 
+    name: "Weber", 
+    logo: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=200&h=100&fit=crop&crop=center" 
+  },
+  { 
+    id: 10, 
+    name: "Sika", 
+    logo: "https://images.unsplash.com/photo-1586350700733-a754423d4e7f?w=200&h=100&fit=crop&crop=center" 
+  },
+  { 
+    id: 11, 
+    name: "Mapei", 
+    logo: "https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=200&h=100&fit=crop&crop=center" 
+  },
+  { 
+    id: 12, 
+    name: "Knauf", 
+    logo: "https://images.unsplash.com/photo-1600607687244-e2df6b7c7d1c?w=200&h=100&fit=crop&crop=center" 
   }
 ];
 
