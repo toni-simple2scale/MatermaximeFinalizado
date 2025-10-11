@@ -18,16 +18,28 @@ const AgregadosPage = () => {
 
   const agregados = [
     {
-      name: 'Areia Fina',
-      description: 'Areia com granulometria fina, ideal para rebocos e acabamentos.',
-      specs: 'Granulometria: 0-2mm | Densidade: 1.6 t/m³',
-      applications: ['Rebocos', 'Argamassas', 'Acabamentos', 'Assentamento de tijolos']
+      name: 'Areia do Rio',
+      description: 'Areia natural extraída de leito de rio, ideal para diversas aplicações.',
+      specs: 'Origem natural | Granulometria variada | Densidade: 1.6 t/m³',
+      applications: ['Betão', 'Argamassas', 'Construção geral', 'Obras hidráulicas']
     },
     {
-      name: 'Areia Grossa',
-      description: 'Areia com granulometria grossa para betões e fundações.',
-      specs: 'Granulometria: 0-5mm | Densidade: 1.7 t/m³',
-      applications: ['Betão', 'Fundações', 'Pavimentações', 'Drenagens']
+      name: 'Areia Branca',
+      description: 'Areia de cor branca para acabamentos especiais e decorativos.',
+      specs: 'Cor branca | Granulometria fina | Densidade: 1.5 t/m³',
+      applications: ['Acabamentos decorativos', 'Rebocos especiais', 'Argamassas claras', 'Paisagismo']
+    },
+    {
+      name: 'Areia Amarela',
+      description: 'Areia de cor amarela para construção e acabamentos.',
+      specs: 'Cor amarela | Granulometria média | Densidade: 1.6 t/m³',
+      applications: ['Construção geral', 'Betão', 'Argamassas', 'Pavimentações']
+    },
+    {
+      name: 'Saibro',
+      description: 'Material natural com mistura de areia e argila.',
+      specs: 'Mistura natural | Compactação excelente | Densidade: 1.7 t/m³',
+      applications: ['Pavimentos rurais', 'Caminhos', 'Aterros', 'Regularização de terrenos']
     },
     {
       name: 'Brita 1',
@@ -42,10 +54,10 @@ const AgregadosPage = () => {
       applications: ['Betão pesado', 'Fundações', 'Aterros', 'Drenagem pesada']
     },
     {
-      name: 'Cascalho',
-      description: 'Material natural para diversos fins construtivos.',
-      specs: 'Granulometria variada | Densidade: 1.6 t/m³',
-      applications: ['Aterros', 'Caminhos', 'Drenagem', 'Paisagismo']
+      name: 'Brita 3',
+      description: 'Pedra britada de calibre maior para aplicações específicas.',
+      specs: 'Granulometria: 25-50mm | Densidade: 1.5 t/m³',
+      applications: ['Drenagem pesada', 'Aterros especiais', 'Obras portuárias', 'Filtros industriais']
     }
   ];
 
