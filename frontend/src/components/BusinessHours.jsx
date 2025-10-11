@@ -56,16 +56,6 @@ const BusinessHours = () => {
                 </div>
 
                 <div className="flex items-center p-4 bg-gradient-to-r from-[#00BFFF]/5 to-blue-50 rounded-xl border border-[#00BFFF]/10">
-                  <div className="w-12 h-12 bg-[#25D366]/10 rounded-full flex items-center justify-center mr-4">
-                    <MessageCircle className="h-6 w-6 text-[#25D366]" />
-                  </div>
-                  <div>
-                    <div className="text-sm text-gray-600 mb-1">WhatsApp</div>
-                    <div className="font-bold text-gray-900 text-lg">{companyInfo.whatsapp}</div>
-                  </div>
-                </div>
-
-                <div className="flex items-center p-4 bg-gradient-to-r from-[#00BFFF]/5 to-blue-50 rounded-xl border border-[#00BFFF]/10">
                   <div className="w-12 h-12 bg-[#00BFFF]/10 rounded-full flex items-center justify-center mr-4">
                     <Mail className="h-6 w-6 text-[#00BFFF]" />
                   </div>
