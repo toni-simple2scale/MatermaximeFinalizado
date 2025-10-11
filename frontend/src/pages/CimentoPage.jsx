@@ -194,7 +194,7 @@ const CimentoPage = () => {
                 <Input
                   type="text"
                   name="quantity"
-                  placeholder="Quantidade (nº sacos ou paletes)"
+                  placeholder="Quantidade (nº sacos)"
                   value={quoteForm.quantity}
                   onChange={handleInputChange}
                   className="w-full"
