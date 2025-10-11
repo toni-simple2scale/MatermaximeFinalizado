@@ -141,7 +141,7 @@ export const brandPartners = [
   { 
     id: 8, 
     name: "Secil", 
-    logo: "https://customer-assets.emergentagent.com/job_constructsupply/artifacts/nxs5tapo_LOGO%20SECIL%20FINAL.png" 
+    logo: "https://customer-assets.emergentagent.com/job_constructsupply/artifacts/p7lg0f8j_SECIL_Logo.png" 
   }
 ];
 
