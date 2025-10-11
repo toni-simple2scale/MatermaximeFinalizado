@@ -32,19 +32,19 @@ const CimentoPage = () => {
     {
       name: 'Cimento Cola Branco/Cinza',
       description: 'Cimento-cola para assentamento de azulejos e revestimentos.',
-      specs: 'Embalagem: 25kg | Rendimento: ~4m² por saco',
+      specs: 'Embalagem: 25kg',
       applications: ['Azulejos', 'Cerâmico', 'Pedra natural', 'Revestimentos']
     },
     {
       name: 'Cimento Cola Flexível Branco/Cinza',
       description: 'Cimento-cola flexível para aplicações com maior deformação.',
-      specs: 'Embalagem: 25kg | Rendimento: ~4m² por saco',
+      specs: 'Embalagem: 25kg',
       applications: ['Revestimentos flexíveis', 'Pavimentos aquecidos', 'Fachadas ventiladas']
     },
     {
       name: 'Cimento Cola Extra Flexível Branco/Cinza',
       description: 'Cimento-cola de máxima flexibilidade para aplicações especiais.',
-      specs: 'Embalagem: 25kg | Rendimento: ~4m² por saco',
+      specs: 'Embalagem: 25kg',
       applications: ['Aplicações com alta deformação', 'Substratos instáveis', 'Impermeabilizações']
     },
     {
