@@ -20,11 +20,20 @@ const BusinessHours = () => {
 
             <div className="space-y-6">
               <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-gray-200/50">
-                <div className="flex items-center justify-between mb-2">
-                  <span className="font-semibold text-gray-900">Segunda a Sexta</span>
-                  <span className="text-[#00BFFF] font-bold">{companyInfo.businessHours.weekdays}</span>
+                <div className="mb-4">
+                  <span className="font-semibold text-gray-900 text-lg">Segunda a Sexta</span>
                 </div>
-                <p className="text-sm text-gray-600">Atendimento completo e entregas</p>
+                <div className="space-y-3">
+                  <div className="flex items-center justify-between">
+                    <span className="text-gray-700">Horário Armazém:</span>
+                    <span className="text-[#00BFFF] font-bold">{companyInfo.businessHours.weekdays.warehouse}</span>
+                  </div>
+                  <div className="flex items-center justify-between">
+                    <span className="text-gray-700">Loja:</span>
+                    <span className="text-[#00BFFF] font-bold">{companyInfo.businessHours.weekdays.store}</span>
+                  </div>
+                </div>
+                <p className="text-sm text-gray-600 mt-3">Atendimento completo e entregas</p>
               </div>
 
               <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-gray-200/50">
