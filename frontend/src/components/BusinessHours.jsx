@@ -87,7 +87,7 @@ const BusinessHours = () => {
                       </div>
                       <div>
                         <div className="text-sm text-[#00BFFF] font-semibold">Loja:</div>
-                        <div className="text-sm">Avenida da Liberdade nº51B, 2715-311 - Pêro Pinheiro</div>
+                        <div className="text-sm">Avenida da Liberdade nº51B, 2715-001 - Pêro Pinheiro</div>
                       </div>
                     </div>
                   </div>
