@@ -121,7 +121,7 @@ export const brandPartners = [
   { 
     id: 4, 
     name: "Cofan", 
-    logo: "https://customer-assets.emergentagent.com/job_constructsupply/artifacts/yefpmand_COGAN%20FINAL.png" 
+    logo: "https://customer-assets.emergentagent.com/job_constructsupply/artifacts/do1x43d1_COGAN%20FINAL.png" 
   },
   { 
     id: 5, 
