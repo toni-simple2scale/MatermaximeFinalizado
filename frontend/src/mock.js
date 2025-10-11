@@ -103,14 +103,31 @@ export const faqData = [
 ];
 
 export const brandPartners = [
-  { id: 1, name: "Cimpor", logo: "/api/placeholder/150/80" },
-  { id: 2, name: "Secil", logo: "/api/placeholder/150/80" },
-  { id: 3, name: "Weber", logo: "/api/placeholder/150/80" },
-  { id: 4, name: "Sika", logo: "/api/placeholder/150/80" },
-  { id: 5, name: "Cerame", logo: "/api/placeholder/150/80" },
-  { id: 6, name: "Leca", logo: "/api/placeholder/150/80" },
-  { id: 7, name: "Sotinco", logo: "/api/placeholder/150/80" },
-  { id: 8, name: "Preceram", logo: "/api/placeholder/150/80" }
+  { 
+    id: 1, 
+    name: "Artebel", 
+    logo: "https://customer-assets.emergentagent.com/job_constructsupply/artifacts/fz70z8ij_ARTEBEL%20FINAL.png" 
+  },
+  { 
+    id: 2, 
+    name: "Prismacer", 
+    logo: "https://customer-assets.emergentagent.com/job_constructsupply/artifacts/430v25qs_PRISMACER%20FINAL.png" 
+  },
+  { 
+    id: 3, 
+    name: "Kerakoll", 
+    logo: "https://customer-assets.emergentagent.com/job_constructsupply/artifacts/cjast3kq_KERAKOLL%20FINAL.png" 
+  },
+  { 
+    id: 4, 
+    name: "Cofan", 
+    logo: "https://customer-assets.emergentagent.com/job_constructsupply/artifacts/yefpmand_COGAN%20FINAL.png" 
+  },
+  { 
+    id: 5, 
+    name: "Preceram", 
+    logo: "https://customer-assets.emergentagent.com/job_constructsupply/artifacts/gayxs60z_PRECERAM%20FINAL.png" 
+  }
 ];
 
 // Form submission handlers
