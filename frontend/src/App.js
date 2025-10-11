@@ -34,7 +34,6 @@ const HomePage = () => {
       <FAQSection />
       <AboutSection />
       <Footer />
-      <WhatsAppButton />
     </div>
   );
 };
