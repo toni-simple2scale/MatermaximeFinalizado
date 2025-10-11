@@ -15,10 +15,10 @@ const ProductCatalog = () => {
     },
     {
       id: 2,
-      title: 'Cimento',
-      description: 'Cimento Portland de alta qualidade das melhores marcas nacionais.',
+      title: 'Cimentos e Rebocos',
+      description: 'Cimentos e Rebocos de alta qualidade das melhores marcas.',
       image: 'https://images.unsplash.com/photo-1673865641469-34498379d8af',
-      items: ['Cimento 32.5', 'Cimento 42.5', 'Cimento Branco', 'Cimento Cola'],
+      items: ['Cimento Secil 25Kg', 'Cimento Branco', 'Cimento Cola Branco/Cinza', 'Cimento Cola Flexível', 'Reboco Interior', 'Reboco Exterior'],
       link: '/produtos/cimento'
     },
     {
