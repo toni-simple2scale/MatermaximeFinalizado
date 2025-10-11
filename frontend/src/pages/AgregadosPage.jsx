@@ -153,10 +153,6 @@ const AgregadosPage = () => {
                     </div>
                     <div className="flex items-center">
                       <Truck className="h-5 w-5 text-[#00BFFF] mr-3" />
-                      <span className="text-gray-700">Descarregamento incluído</span>
-                    </div>
-                    <div className="flex items-center">
-                      <Truck className="h-5 w-5 text-[#00BFFF] mr-3" />
                       <span className="text-gray-700">Várias capacidades de camiões</span>
                     </div>
                   </div>
