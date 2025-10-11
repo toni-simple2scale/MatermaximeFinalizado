@@ -50,13 +50,13 @@ const CimentoPage = () => {
     {
       name: 'Reboco Interior Branco/Cinza',
       description: 'Reboco pronto para aplicação em interiores.',
-      specs: 'Embalagem: 25kg | Rendimento: ~1,5m² por saco (15mm)',
+      specs: 'Embalagem: 25kg',
       applications: ['Paredes interiores', 'Tectos', 'Acabamentos lisos', 'Preparação para pintura']
     },
     {
       name: 'Reboco Exterior Branco/Cinza',
       description: 'Reboco resistente às intempéries para aplicação exterior.',
-      specs: 'Embalagem: 25kg | Rendimento: ~1,5m² por saco (15mm)',
+      specs: 'Embalagem: 25kg',
       applications: ['Fachadas', 'Paredes exteriores', 'Resistente à chuva', 'Acabamentos texturados']
     }
   ];
