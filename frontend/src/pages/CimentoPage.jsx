@@ -201,7 +201,7 @@ const CimentoPage = () => {
                 />
                 <Textarea
                   name="message"
-                  placeholder="Detalhes do projeto e tipo de cimento necessário..."
+                  placeholder="Detalhes do projeto e tipo de cimento ou reboco necessário..."
                   value={quoteForm.message}
                   onChange={handleInputChange}
                   rows={4}
