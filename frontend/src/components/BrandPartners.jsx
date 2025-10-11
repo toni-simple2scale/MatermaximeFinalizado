@@ -24,9 +24,9 @@ const BrandPartners = () => {
           {brandPartners.map((brand) => (
             <div
               key={brand.id}
-              className="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 p-6 border border-gray-100 hover:border-[#00BFFF]/20 transform hover:-translate-y-2 flex items-center justify-center group"
+              className="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 p-8 border border-gray-100 hover:border-[#00BFFF]/20 transform hover:-translate-y-2 flex items-center justify-center group"
             >
-              <div className="w-32 h-16 flex items-center justify-center">
+              <div className="w-48 h-24 flex items-center justify-center">
                 <img 
                   src={brand.logo} 
                   alt={brand.name}
