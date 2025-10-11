@@ -26,7 +26,7 @@ const CimentoPage = () => {
     {
       name: 'Cimento Branco',
       description: 'Cimento branco para acabamentos decorativos e arquitetónicos.',
-      specs: 'Embalagem: 25kg | Paletes: 40 sacos',
+      specs: 'Embalagem: 25kg',
       applications: ['Acabamentos decorativos', 'Juntas', 'Elementos arquitetónicos', 'Fachadas']
     },
     {
