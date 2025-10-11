@@ -127,6 +127,21 @@ export const brandPartners = [
     id: 5, 
     name: "Preceram", 
     logo: "https://customer-assets.emergentagent.com/job_constructsupply/artifacts/gayxs60z_PRECERAM%20FINAL.png" 
+  },
+  { 
+    id: 6, 
+    name: "COS", 
+    logo: "https://customer-assets.emergentagent.com/job_constructsupply/artifacts/ueoj28jm_COS%20FINAL.png" 
+  },
+  { 
+    id: 7, 
+    name: "Fassa Bortolo", 
+    logo: "https://customer-assets.emergentagent.com/job_constructsupply/artifacts/39ezhhto_FASSA%20BARTOLO%20FINAL.png" 
+  },
+  { 
+    id: 8, 
+    name: "Secil", 
+    logo: "https://customer-assets.emergentagent.com/job_constructsupply/artifacts/nxs5tapo_LOGO%20SECIL%20FINAL.png" 
   }
 ];
 
