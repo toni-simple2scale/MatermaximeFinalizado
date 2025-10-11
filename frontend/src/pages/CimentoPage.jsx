@@ -72,10 +72,10 @@ const CimentoPage = () => {
             Voltar ao Catálogo
           </Link>
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            <span className="text-[#00BFFF]">Cimento</span> Portland
+            <span className="text-[#00BFFF]">Cimentos</span> e Rebocos
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl">
-            Cimento Portland de alta qualidade das melhores marcas nacionais e internacionais.
+            Cimentos e Rebocos de alta qualidade das melhores marcas.
           </p>
         </div>
       </div>
