@@ -64,7 +64,7 @@ const CimentoPage = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     alert('Pedido de orçamento para Cimento enviado com sucesso!');
-    setQuoteForm({ name: '', phone: '', email: '', product: 'Cimento', quantity: '', message: '' });
+    setQuoteForm({ name: '', phone: '', email: '', product: 'Cimentos e Rebocos', quantity: '', message: '' });
   };
 
   const handleInputChange = (e) => {
