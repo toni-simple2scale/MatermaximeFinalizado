@@ -18,34 +18,46 @@ const CimentoPage = () => {
 
   const cimentos = [
     {
-      name: 'Cimento Portland 32.5',
-      description: 'Cimento de uso geral para aplicações correntes de construção.',
-      specs: 'Classe: 32.5N | Embalagem: 25kg | Paletes: 40 sacos',
-      applications: ['Argamassas', 'Rebocos', 'Alvenarias', 'Pequenas betonagens']
-    },
-    {
-      name: 'Cimento Portland 42.5',
-      description: 'Cimento de alta resistência para betões estruturais.',
-      specs: 'Classe: 42.5R | Embalagem: 25kg | Paletes: 40 sacos',
-      applications: ['Betão estrutural', 'Pré-fabricados', 'Pavimentações', 'Fundações']
+      name: 'Cimento Secil 25Kg',
+      description: 'Cimento Portland de alta qualidade da marca Secil.',
+      specs: 'Embalagem: 25kg | Paletes: 40 sacos',
+      applications: ['Argamassas', 'Rebocos', 'Alvenarias', 'Betonagens gerais']
     },
     {
       name: 'Cimento Branco',
       description: 'Cimento branco para acabamentos decorativos e arquitetónicos.',
-      specs: 'Classe: 42.5R Branco | Embalagem: 25kg | Paletes: 40 sacos',
+      specs: 'Embalagem: 25kg | Paletes: 40 sacos',
       applications: ['Acabamentos decorativos', 'Juntas', 'Elementos arquitetónicos', 'Fachadas']
     },
     {
-      name: 'Cimento Cola',
+      name: 'Cimento Cola Branco/Cinza',
       description: 'Cimento-cola para assentamento de azulejos e revestimentos.',
-      specs: 'Classe: C2T | Embalagem: 25kg | Rendimento: ~4m² por saco',
+      specs: 'Embalagem: 25kg | Rendimento: ~4m² por saco',
       applications: ['Azulejos', 'Cerâmico', 'Pedra natural', 'Revestimentos']
     },
     {
-      name: 'Cimento Refractário',
-      description: 'Cimento especial resistente ao calor e altas temperaturas.',
-      specs: 'Resistente até 1200°C | Embalagem: 25kg',
-      applications: ['Fornos', 'Lareiras', 'Chaminés', 'Aplicações industriais']
+      name: 'Cimento Cola Flexível Branco/Cinza',
+      description: 'Cimento-cola flexível para aplicações com maior deformação.',
+      specs: 'Embalagem: 25kg | Rendimento: ~4m² por saco',
+      applications: ['Revestimentos flexíveis', 'Pavimentos aquecidos', 'Fachadas ventiladas']
+    },
+    {
+      name: 'Cimento Cola Extra Flexível Branco/Cinza',
+      description: 'Cimento-cola de máxima flexibilidade para aplicações especiais.',
+      specs: 'Embalagem: 25kg | Rendimento: ~4m² por saco',
+      applications: ['Aplicações com alta deformação', 'Substratos instáveis', 'Impermeabilizações']
+    },
+    {
+      name: 'Reboco Interior Branco/Cinza',
+      description: 'Reboco pronto para aplicação em interiores.',
+      specs: 'Embalagem: 25kg | Rendimento: ~1,5m² por saco (15mm)',
+      applications: ['Paredes interiores', 'Tectos', 'Acabamentos lisos', 'Preparação para pintura']
+    },
+    {
+      name: 'Reboco Exterior Branco/Cinza',
+      description: 'Reboco resistente às intempéries para aplicação exterior.',
+      specs: 'Embalagem: 25kg | Rendimento: ~1,5m² por saco (15mm)',
+      applications: ['Fachadas', 'Paredes exteriores', 'Resistente à chuva', 'Acabamentos texturados']
     }
   ];
 
