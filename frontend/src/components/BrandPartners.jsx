@@ -26,8 +26,12 @@ const BrandPartners = () => {
               key={brand.id}
               className="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 p-6 border border-gray-100 hover:border-[#00BFFF]/20 transform hover:-translate-y-2 flex items-center justify-center group"
             >
-              <div className="w-32 h-16 bg-gray-100 rounded-lg flex items-center justify-center group-hover:bg-gray-50 transition-colors duration-300">
-                <span className="text-gray-500 font-medium text-sm">{brand.name}</span>
+              <div className="w-32 h-16 flex items-center justify-center">
+                <img 
+                  src={brand.logo} 
+                  alt={brand.name}
+                  className="max-w-full max-h-full object-contain filter transition-all duration-300 group-hover:brightness-75"
+                />
               </div>
             </div>
           ))}
