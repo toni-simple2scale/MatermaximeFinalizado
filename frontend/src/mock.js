@@ -111,7 +111,7 @@ export const brandPartners = [
   { 
     id: 2, 
     name: "Prismacer", 
-    logo: "https://customer-assets.emergentagent.com/job_constructsupply/artifacts/430v25qs_PRISMACER%20FINAL.png" 
+    logo: "https://customer-assets.emergentagent.com/job_constructsupply/artifacts/j5sxzbsi_PRISMACER%20FINAL.png" 
   },
   { 
     id: 3, 
