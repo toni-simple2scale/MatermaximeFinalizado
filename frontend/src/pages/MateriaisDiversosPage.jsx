@@ -32,7 +32,7 @@ const MateriaisDiversosPage = () => {
     {
       name: 'Argamassa Cola',
       description: 'Argamassa pronta para assentamento de azulejos.',
-      specs: 'C2 TE | Embalagem: 25kg | Rendimento: ~4m²',
+      specs: 'C2 TE | Embalagem: 25kg',
       applications: ['Azulejos interiores', 'Cerâmico', 'Pedra natural', 'Pavimentos']
     },
     {
