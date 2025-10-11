@@ -214,7 +214,7 @@ const CimentoPage = () => {
                 
                 <Button
                   type="button"
-                  onClick={() => openWhatsApp('Olá! Gostaria de mais informações sobre cimento.')}
+                  onClick={() => openWhatsApp('Olá! Gostaria de mais informações sobre cimentos e rebocos.')}
                   className="w-full bg-[#25D366] hover:bg-[#1da851] text-white"
                 >
                   <Phone className="mr-2 h-4 w-4" />
