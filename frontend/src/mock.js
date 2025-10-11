@@ -8,7 +8,10 @@ export const companyInfo = {
   address: "Armazém: Rua do Alto das Mastrontas Nº8, 2715-311 Almargem do Bispo\nLoja: Avenida da Liberdade nº51B, 2715-311 - Pêro Pinheiro",
   whatsapp: "+351 913 684 059",
   businessHours: {
-    weekdays: "08:00 - 19:00",
+    weekdays: {
+      warehouse: "08:00 - 19:00",
+      store: "08:30 - 12:30 | 14:30 - 18:30"
+    },
     saturday: "09:00 - 13:00"
   }
 };
