@@ -136,10 +136,6 @@ const AgregadosPage = () => {
                   <div className="space-y-3">
                     <div className="flex items-center">
                       <Shield className="h-5 w-5 text-[#00BFFF] mr-3" />
-                      <span className="text-gray-700">Agregados certificados CE</span>
-                    </div>
-                    <div className="flex items-center">
-                      <Shield className="h-5 w-5 text-[#00BFFF] mr-3" />
                       <span className="text-gray-700">Controlo de qualidade rigoroso</span>
                     </div>
                     <div className="flex items-center">
