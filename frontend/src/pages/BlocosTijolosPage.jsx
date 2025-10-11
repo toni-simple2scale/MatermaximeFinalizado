@@ -4,7 +4,7 @@ import { Input } from '../components/ui/input';
 import { Textarea } from '../components/ui/textarea';
 import { ArrowLeft, Truck, Shield, Phone, CheckCircle } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import { openWhatsApp } from '../mock';
+// WhatsApp removed
 
 const BlocosTijolosPage = () => {
   const [quoteForm, setQuoteForm] = useState({
