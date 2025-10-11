@@ -106,7 +106,7 @@ export const brandPartners = [
   { 
     id: 1, 
     name: "Artebel", 
-    logo: "https://customer-assets.emergentagent.com/job_constructsupply/artifacts/fz70z8ij_ARTEBEL%20FINAL.png" 
+    logo: "https://customer-assets.emergentagent.com/job_constructsupply/artifacts/dv81cl0h_ARTEBEL%20FINAL.png" 
   },
   { 
     id: 2, 
