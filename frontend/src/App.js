@@ -20,6 +20,7 @@ import BlocosTijolosPage from "./pages/BlocosTijolosPage";
 import FerroPage from "./pages/FerroPage";
 import TubagensPage from "./pages/TubagensPage";
 import MateriaisDiversosPage from "./pages/MateriaisDiversosPage";
+import PreMoldadosPage from "./pages/PreMoldadosPage";
 
 const HomePage = () => {
   return (
