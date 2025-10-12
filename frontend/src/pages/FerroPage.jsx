@@ -148,28 +148,7 @@ const FerroPage = () => {
                 </div>
               </div>
 
-              {/* Technical Table */}
-              <div className="mt-8">
-                <h4 className="text-xl font-bold text-gray-900 mb-4">Tabela Técnica Resumida</h4>
-                <div className="overflow-x-auto">
-                  <table className="min-w-full bg-white rounded-lg">
-                    <thead className="bg-gray-50">
-                      <tr>
-                        <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase">Diâmetro</th>
-                        <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase">Peso/metro</th>
-                        <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase">Área secção</th>
-                        <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase">Aplicação típica</th>
-                      </tr>
-                    </thead>
-                    <tbody className="divide-y divide-gray-200">
-                      <tr><td className="px-4 py-3 text-sm text-gray-900">Ø6mm</td><td className="px-4 py-3 text-sm text-gray-500">0.222 kg/m</td><td className="px-4 py-3 text-sm text-gray-500">0.28 cm²</td><td className="px-4 py-3 text-sm text-gray-500">Estribos</td></tr>
-                      <tr><td className="px-4 py-3 text-sm text-gray-900">Ø8mm</td><td className="px-4 py-3 text-sm text-gray-500">0.395 kg/m</td><td className="px-4 py-3 text-sm text-gray-500">0.50 cm²</td><td className="px-4 py-3 text-sm text-gray-500">Lajes</td></tr>
-                      <tr><td className="px-4 py-3 text-sm text-gray-900">Ø10mm</td><td className="px-4 py-3 text-sm text-gray-500">0.617 kg/m</td><td className="px-4 py-3 text-sm text-gray-500">0.79 cm²</td><td className="px-4 py-3 text-sm text-gray-500">Vigas/Pilares</td></tr>
-                      <tr><td className="px-4 py-3 text-sm text-gray-900">Ø12mm</td><td className="px-4 py-3 text-sm text-gray-500">0.888 kg/m</td><td className="px-4 py-3 text-sm text-gray-500">1.13 cm²</td><td className="px-4 py-3 text-sm text-gray-500">Estrutural</td></tr>
-                    </tbody>
-                  </table>
-                </div>
-              </div>
+              {/* Technical Table Removed */}
             </div>
           </div>
 
