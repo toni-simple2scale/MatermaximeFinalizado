@@ -164,7 +164,6 @@ const BlocosTijolosPage = () => {
                     </div>
                   </div>
                 </div>
-                {/* Cálculo de Quantidades Removed */}
               </div>
             </div>
           </div>
