@@ -23,6 +23,7 @@ import MateriaisDiversosPage from "./pages/MateriaisDiversosPage";
 import PreMoldadosPage from "./pages/PreMoldadosPage";
 import FerramentasPage from "./pages/FerramentasPage";
 import ColasPage from "./pages/ColasPage";
+import PavimentosPage from "./pages/PavimentosPage";
 
 const HomePage = () => {
   return (
