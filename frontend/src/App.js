@@ -52,6 +52,7 @@ function App() {
           <Route path="/produtos/ferro" element={<FerroPage />} />
           <Route path="/produtos/tubagens" element={<TubagensPage />} />
           <Route path="/produtos/pre-moldados" element={<PreMoldadosPage />} />
+          <Route path="/produtos/ferramentas" element={<FerramentasPage />} />
           <Route path="/produtos/materiais-diversos" element={<MateriaisDiversosPage />} />
         </Routes>
       </BrowserRouter>
