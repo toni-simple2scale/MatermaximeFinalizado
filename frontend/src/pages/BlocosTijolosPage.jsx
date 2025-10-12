@@ -20,32 +20,56 @@ const BlocosTijolosPage = () => {
     {
       name: 'Blocos de Betão',
       description: 'Blocos estruturais de betão para construção de alvenarias.',
-      specs: 'Dimensões: 20x20x40cm | Peso: ~18kg | Resistência: ≥4 N/mm²',
+      specs: 'Várias dimensões disponíveis',
       applications: ['Paredes estruturais', 'Muros de contenção', 'Fundações', 'Separações']
-    },
-    {
-      name: 'Tijolos Furados',
-      description: 'Tijolos cerâmicos furados para alvenarias de enchimento.',
-      specs: 'Dimensões: 30x20x11cm | Peso: ~2.8kg | 6 furos',
-      applications: ['Paredes interiores', 'Divisórias', 'Enchimento', 'Isolamento térmico']
-    },
-    {
-      name: 'Tijolos Maciços',
-      description: 'Tijolos cerâmicos maciços de alta resistência.',
-      specs: 'Dimensões: 25x12x5cm | Peso: ~2.5kg | Maciço',
-      applications: ['Acabamentos', 'Revestimentos', 'Elementos decorativos', 'Pavimentos']
     },
     {
       name: 'Blocos Térmicos',
       description: 'Blocos cerâmicos com isolamento térmico integrado.',
-      specs: 'Dimensões: 30x19x25cm | Peso: ~12kg | Isolamento integrado',
-      applications: ['Paredes exteriores', 'Eficiência energética', 'Isolamento térmico', 'Acústico']
+      specs: 'Várias dimensões | Isolamento integrado',
+      applications: ['Paredes exteriores', 'Eficiência energética', 'Isolamento térmico', 'Isolamento acústico']
     },
     {
       name: 'Blocos Leca',
       description: 'Blocos de argila expandida, leves e isolantes.',
-      specs: 'Dimensões: 50x20x20cm | Peso: ~8kg | Argila expandida',
+      specs: 'Várias dimensões | Argila expandida',
       applications: ['Isolamento', 'Lajes', 'Enchimentos', 'Aplicações especiais']
+    },
+    {
+      name: 'Abobadilhas de Leca',
+      description: 'Elementos em leca para lajes aligeiradas e pavimentos.',
+      specs: 'Várias dimensões disponíveis',
+      applications: ['Lajes aligeiradas', 'Pavimentos', 'Construção sustentável', 'Isolamento']
+    },
+    {
+      name: 'Tijolos Cerâmicos',
+      description: 'Tijolos cerâmicos tradicionais para construção.',
+      specs: 'Várias dimensões e tipos',
+      applications: ['Paredes', 'Alvenarias', 'Construção tradicional', 'Revestimentos']
+    },
+    {
+      name: 'Tijolos Térmicos',
+      description: 'Tijolos cerâmicos com propriedades de isolamento térmico.',
+      specs: 'Várias dimensões | Isolamento térmico',
+      applications: ['Paredes térmicas', 'Eficiência energética', 'Isolamento', 'Construção sustentável']
+    },
+    {
+      name: 'Telhas Cerâmicas',
+      description: 'Telhas cerâmicas para coberturas tradicionais e modernas.',
+      specs: 'Telha Marselha, Telha Luca, Telha Portuguesa e mais',
+      applications: ['Coberturas', 'Telhados tradicionais', 'Restaurações', 'Construção nova']
+    },
+    {
+      name: 'Acessórios de Acabamento (Telhas)',
+      description: 'Complementos e acessórios para sistemas de cobertura.',
+      specs: 'Telhão/Cumeeira, Meia Telha, Telha de Beirado e mais',
+      applications: ['Remates de cobertura', 'Cumeeiras', 'Beirados', 'Acabamentos especiais']
+    },
+    {
+      name: 'Acessórios de Fixação',
+      description: 'Sistemas de fixação para telhas e coberturas.',
+      specs: 'Pata de Leão, Mola de Fixação, Parafusos Auto-perfurantes, Ganchos de Cumeeira e mais',
+      applications: ['Fixação de telhas', 'Sistemas de segurança', 'Montagem de coberturas', 'Acessórios técnicos']
     }
   ];
 
