@@ -187,32 +187,7 @@ const FerramentasPage = () => {
               </p>
             </div>
 
-            {/* Additional Info */}
-            <div className="mt-12 bg-gradient-to-r from-gray-50 to-blue-50 rounded-2xl p-8">
-              <div className="text-center">
-                <div className="max-w-2xl mx-auto">
-                  <h3 className="text-2xl font-bold text-gray-900 mb-4">Serviços Complementares</h3>
-                  <div className="grid md:grid-cols-2 gap-4">
-                    <div className="flex items-center justify-center">
-                      <Shield className="h-5 w-5 text-[#00BFFF] mr-3" />
-                      <span className="text-gray-700">Consultoria técnica</span>
-                    </div>
-                    <div className="flex items-center justify-center">
-                      <Shield className="h-5 w-5 text-[#00BFFF] mr-3" />
-                      <span className="text-gray-700">Formação de segurança</span>
-                    </div>
-                    <div className="flex items-center justify-center">
-                      <Truck className="h-5 w-5 text-[#00BFFF] mr-3" />
-                      <span className="text-gray-700">Manutenção de equipamentos</span>
-                    </div>
-                    <div className="flex items-center justify-center">
-                      <Truck className="h-5 w-5 text-[#00BFFF] mr-3" />
-                      <span className="text-gray-700">Reposição de peças</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            {/* Serviços Complementares Removed */}
           </div>
 
           {/* Quote Form Sidebar */}
