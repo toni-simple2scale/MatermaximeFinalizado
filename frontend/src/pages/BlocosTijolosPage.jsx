@@ -142,8 +142,8 @@ const BlocosTijolosPage = () => {
 
             {/* Additional Info */}
             <div className="mt-12 bg-gradient-to-r from-gray-50 to-blue-50 rounded-2xl p-8">
-              <div className="grid md:grid-cols-2 gap-8">
-                <div>
+              <div className="text-center">
+                <div className="max-w-2xl mx-auto">
                   <h3 className="text-2xl font-bold text-gray-900 mb-4">Características Técnicas</h3>
                   <div className="space-y-3">
                     <div className="flex items-center">
