@@ -99,7 +99,7 @@ const FerroPage = () => {
             <span className="text-[#00BFFF]">Ferragens</span> para Construção
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl">
-            Varão de ferro de alta resistência em diferentes diâmetros para todas as aplicações estruturais.
+            Varões, estribos, pregos, arame e outras ferragens de ferro para todas as aplicações estruturais e de construção.
           </p>
         </div>
       </div>
