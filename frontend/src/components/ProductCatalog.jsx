@@ -31,7 +31,7 @@ const ProductCatalog = () => {
     },
     {
       id: 4,
-      title: 'Ferro de Construção',
+      title: 'Ferragens para Construção',
       description: 'Varão de ferro de alta resistência em diferentes diâmetros.',
       image: 'https://images.pexels.com/photos/46167/iron-rods-reinforcing-bars-rods-steel-bars-46167.jpeg',
       items: ['Varão ø6mm', 'Varão ø8mm', 'Varão ø10mm', 'Varão ø12mm', 'Rede electrossoldada'],
