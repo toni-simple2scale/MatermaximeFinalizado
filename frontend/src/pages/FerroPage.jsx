@@ -208,15 +208,7 @@ const FerroPage = () => {
                 </Button>
               </form>
 
-              {/* Quick Calculator */}
-              <div className="mt-6 p-4 bg-gray-50 rounded-lg">
-                <h4 className="font-semibold text-gray-900 mb-2">Calculadora Rápida</h4>
-                <p className="text-xs text-gray-600 mb-2">Peso aproximado por m² de laje (Ø8mm):</p>
-                <div className="text-sm text-gray-700">
-                  <div>Malha 15x15cm: ~7 kg/m²</div>
-                  <div>Malha 20x20cm: ~4 kg/m²</div>
-                </div>
-              </div>
+              {/* Quick Calculator Removed */}
             </div>
           </div>
         </div>
