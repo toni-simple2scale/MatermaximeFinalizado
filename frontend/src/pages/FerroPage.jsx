@@ -214,7 +214,7 @@ const FerroPage = () => {
                 />
                 <Textarea
                   name="message"
-                  placeholder="Especifique diâmetros, comprimentos, se precisa de corte ou dobragem..."
+                  placeholder="Especifique tipos de ferragens, diâmetros, medidas, se precisa de corte ou dobragem..."
                   value={quoteForm.message}
                   onChange={handleInputChange}
                   rows={4}
