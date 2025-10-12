@@ -111,6 +111,24 @@ const PavimentosPage = () => {
       description: 'Grelha com sistema pitonado para aplicações especializadas.',
       specs: 'Sistema pitonado | Aplicação especializada',
       applications: ['Áreas técnicas', 'Zonas de drenagem', 'Projetos específicos', 'Soluções especiais']
+    },
+    {
+      name: 'Lajetas de Cimento Tradicionais e Ornamentais',
+      description: 'Lajetas em cimento para pavimentação com acabamentos tradicionais e decorativos.',
+      specs: 'Várias cores e padrões | Acabamento tradicional e ornamental',
+      applications: ['Passeios', 'Jardins', 'Áreas pedonais', 'Pavimentação decorativa']
+    },
+    {
+      name: 'Lajetas Pitonadas',
+      description: 'Lajetas com superfície pitonada para maior aderência e segurança.',
+      specs: 'Superfície antiderrapante | Segurança reforçada',
+      applications: ['Rampas', 'Áreas húmidas', 'Zonas de segurança', 'Acessos']
+    },
+    {
+      name: 'Lajetas Direcionais',
+      description: 'Lajetas com padrão direcional para orientação de pessoas com deficiência visual.',
+      specs: 'Sistema tátil | Conformidade normativa',
+      applications: ['Acessibilidade', 'Passeios públicos', 'Zonas pedonais', 'Inclusão']
     }
   ];
 
