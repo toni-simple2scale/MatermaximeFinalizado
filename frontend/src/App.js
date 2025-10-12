@@ -19,7 +19,6 @@ import CimentoPage from "./pages/CimentoPage";
 import BlocosTijolosPage from "./pages/BlocosTijolosPage";
 import FerroPage from "./pages/FerroPage";
 import TubagensPage from "./pages/TubagensPage";
-import MateriaisDiversosPage from "./pages/MateriaisDiversosPage";
 import PreMoldadosPage from "./pages/PreMoldadosPage";
 import FerramentasPage from "./pages/FerramentasPage";
 import ColasPage from "./pages/ColasPage";
