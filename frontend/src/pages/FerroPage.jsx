@@ -48,10 +48,28 @@ const FerroPage = () => {
       applications: ['Grandes estruturas', 'Pontes', 'Edifícios industriais', 'Fundações especiais']
     },
     {
-      name: 'Rede Electrossoldada',
+      name: 'Rede Malhasol',
       description: 'Malha de aço soldada para lajes e pavimentos.',
       specs: 'Malha: 15x15cm | Ø6mm | Dimensões: 2.4x6m',
       applications: ['Lajes', 'Pavimentos industriais', 'Estradas', 'Reforços estruturais']
+    },
+    {
+      name: 'Estribos',
+      description: 'Estribos pré-fabricados para estruturas de betão armado.',
+      specs: 'Medidas: Várias medidas',
+      applications: ['Vigas', 'Pilares', 'Estruturas de betão', 'Reforços transversais']
+    },
+    {
+      name: 'Arame Queimado',
+      description: 'Arame de ferro para amarrações e fixações diversas.',
+      specs: 'Vendido ao Kg | Vários diâmetros disponíveis',
+      applications: ['Amarrações', 'Fixações', 'Construção geral', 'Trabalhos diversos']
+    },
+    {
+      name: 'Pregos',
+      description: 'Pregos de ferro para fixações e carpintaria.',
+      specs: 'Medidas: Várias medidas',
+      applications: ['Carpintaria', 'Fixações', 'Construção de madeira', 'Trabalhos gerais']
     }
   ];
 
