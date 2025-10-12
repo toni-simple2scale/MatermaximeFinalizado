@@ -70,6 +70,12 @@ const FerroPage = () => {
       description: 'Pregos de ferro para fixações e carpintaria.',
       specs: 'Medidas: Várias medidas',
       applications: ['Carpintaria', 'Fixações', 'Construção de madeira', 'Trabalhos gerais']
+    },
+    {
+      name: 'Painéis Eletrosoldados',
+      description: 'Painéis de malha eletrosoldada para reforço estrutural e vedações.',
+      specs: 'Várias medidas disponíveis | Malha soldada industrialmente',
+      applications: ['Vedações', 'Reforço de lajes', 'Muros', 'Estruturas diversas']
     }
   ];
 
