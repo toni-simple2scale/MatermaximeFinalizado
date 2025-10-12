@@ -20,38 +20,38 @@ const FerroPage = () => {
     {
       name: 'Varão Ø6mm',
       description: 'Varão de ferro nervurado para armaduras leves e estribos.',
-      specs: 'Diâmetro: 6mm | Comprimento: 12m | Peso: 2.22kg por vara',
+      specs: 'Diâmetro: 6mm',
       applications: ['Estribos', 'Armaduras leves', 'Malhas de distribuição', 'Elementos secundários']
     },
     {
       name: 'Varão Ø8mm', 
       description: 'Varão de aço para armaduras estruturais de pequeno porte.',
-      specs: 'Diâmetro: 8mm | Comprimento: 12m | Peso: 3.95kg por vara',
+      specs: 'Diâmetro: 8mm',
       applications: ['Lajes', 'Vigas pequenas', 'Pilares', 'Armaduras principais']
     },
     {
       name: 'Varão Ø10mm',
       description: 'Varão estrutural para elementos de betão armado.',
-      specs: 'Diâmetro: 10mm | Comprimento: 12m | Peso: 6.17kg por vara',
+      specs: 'Diâmetro: 10mm',
       applications: ['Lajes estruturais', 'Vigas', 'Pilares', 'Fundações']
     },
     {
       name: 'Varão Ø12mm',
       description: 'Varão de alta resistência para estruturas principais.',
-      specs: 'Diâmetro: 12mm | Comprimento: 12m | Peso: 8.89kg por vara', 
+      specs: 'Diâmetro: 12mm', 
       applications: ['Estruturas principais', 'Fundações pesadas', 'Vigas principais', 'Pilares estruturais']
-    },
-    {
-      name: 'Rede Electrossoldada',
-      description: 'Malha de aço soldada para lajes e pavimentos.',
-      specs: 'Malha: 15x15cm | Ø6mm | Dimensões: 2.4x6m | Peso: ~25kg por painel',
-      applications: ['Lajes', 'Pavimentos industriais', 'Estradas', 'Reforços estruturais']
     },
     {
       name: 'Varão Ø16mm',
       description: 'Varão de grande diâmetro para estruturas pesadas.',
-      specs: 'Diâmetro: 16mm | Comprimento: 12m | Peso: 15.77kg por vara',
+      specs: 'Diâmetro: 16mm',
       applications: ['Grandes estruturas', 'Pontes', 'Edifícios industriais', 'Fundações especiais']
+    },
+    {
+      name: 'Rede Electrossoldada',
+      description: 'Malha de aço soldada para lajes e pavimentos.',
+      specs: 'Malha: 15x15cm | Ø6mm | Dimensões: 2.4x6m',
+      applications: ['Lajes', 'Pavimentos industriais', 'Estradas', 'Reforços estruturais']
     }
   ];
 
