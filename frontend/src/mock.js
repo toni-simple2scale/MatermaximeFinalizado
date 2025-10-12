@@ -19,35 +19,31 @@ export const companyInfo = {
 export const testimonials = [
   {
     id: 1,
-    name: "João Silva",
-    company: "Construções Silva & Filhos",
+    name: "Carlos Baptista",
+    company: "Somar Distâncias",
     rating: 5,
-    text: "Excelente serviço! Sempre pontuais nas entregas e materiais de primeira qualidade. Já trabalho com a Matermaxime há mais de 10 anos.",
-    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face"
+    text: "Excelente serviço! Sempre pontuais nas entregas e materiais de primeira qualidade. Já trabalho com a Matermaxime há mais de 10 anos."
   },
   {
     id: 2,
-    name: "Maria Santos",
-    company: "MS Arquitetura",
+    name: "Dina Bertolo",
+    company: "Cliente Particular",
     rating: 5,
-    text: "Profissionais competentes e materiais de qualidade superior. O apoio técnico é excecional e sempre nos ajudam a encontrar as melhores soluções.",
-    image: "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=150&h=150&fit=crop&crop=face"
+    text: "Profissionalismo e disponibilidade. Parabéns."
   },
   {
     id: 3,
-    name: "Pedro Costa",
-    company: "Costa Empreiteiros",
+    name: "Dr. Mário Ribeiro",
+    company: "Advogado",
     rating: 5,
-    text: "Frota própria faz toda a diferença! Entregas sempre no horário combinado, mesmo em locais de difícil acesso. Recomendo vivamente.",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face"
+    text: "Muita oferta e com excelentes preços. Profissionais, rápidos no processamento das encomendas e nas entregas. Cumpridores."
   },
   {
     id: 4,
-    name: "Ana Rodrigues",
-    company: "Obras & Renovações AR",
+    name: "João Basso",
+    company: "Cliente Particular",
     rating: 5,
-    text: "Atendimento personalizado e preços competitivos. A qualidade dos materiais é consistente e o serviço pós-venda é fantástico.",
-    image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face"
+    text: "Bons preços, especialmente nos blocos."
   }
 ];
 
