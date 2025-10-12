@@ -162,24 +162,7 @@ const TubagensPage = () => {
                 </div>
               </div>
 
-              {/* Pressure Table */}
-              <div className="mt-8">
-                <h4 className="text-xl font-bold text-gray-900 mb-4">Pressões Nominais</h4>
-                <div className="grid md:grid-cols-3 gap-4">
-                  <div className="bg-white rounded-lg p-4">
-                    <div className="font-semibold text-gray-900 mb-2">PN6 (6 bar)</div>
-                    <div className="text-sm text-gray-600">Aplicações básicas</div>
-                  </div>
-                  <div className="bg-white rounded-lg p-4">
-                    <div className="font-semibold text-gray-900 mb-2">PN10 (10 bar)</div>
-                    <div className="text-sm text-gray-600">Uso residencial</div>
-                  </div>
-                  <div className="bg-white rounded-lg p-4">
-                    <div className="font-semibold text-gray-900 mb-2">PN16 (16 bar)</div>
-                    <div className="text-sm text-gray-600">Aplicações industriais</div>
-                  </div>
-                </div>
-              </div>
+              {/* Pressure Table Removed */}
             </div>
           </div>
 
