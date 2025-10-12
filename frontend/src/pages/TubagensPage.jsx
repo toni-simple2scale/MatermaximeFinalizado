@@ -20,31 +20,31 @@ const TubagensPage = () => {
     {
       name: 'Tubo PVC Águas',
       description: 'Tubos de PVC para instalações de água potável.',
-      specs: 'Diâmetros: ø16 a ø110mm | PN16 | Cor azul',
+      specs: 'Vários diâmetros disponíveis | Cor azul',
       applications: ['Água potável', 'Redes prediais', 'Irrigação', 'Piscinas']
     },
     {
       name: 'Tubo PVC Esgotos',
       description: 'Tubos de PVC para redes de esgotos e águas pluviais.',
-      specs: 'Diâmetros: ø50 a ø400mm | SN2/SN4 | Cor laranja/cinza',
+      specs: 'Vários diâmetros disponíveis | Cor laranja/cinza',
       applications: ['Esgotos domésticos', 'Águas pluviais', 'Drenagem', 'Coletores']
     },
     {
       name: 'Tubo Corrugado',
       description: 'Tubo corrugado flexível para proteção de cabos.',
-      specs: 'Diâmetros: ø16 a ø63mm | Dupla parede | Flexível',
+      specs: 'Vários diâmetros disponíveis | Dupla parede | Flexível',
       applications: ['Proteção cabos', 'Instalações elétricas', 'Telecomunicações', 'Enterramento']
     },
     {
       name: 'Tubo Multicamadas',
       description: 'Tubo compósito para instalações de aquecimento e águas.',
-      specs: 'Diâmetros: ø16 a ø63mm | PEX-Al-PEX | 95°C máx',
+      specs: 'Vários diâmetros disponíveis | PEX-Al-PEX | 95°C máx',
       applications: ['Aquecimento central', 'Águas quentes', 'Ar condicionado', 'Radiadores']
     },
     {
       name: 'Tubo Polietileno PE100',
       description: 'Tubo de polietileno para redes de distribuição de água.',
-      specs: 'Diâmetros: ø25 a ø315mm | PN16 | PE100',
+      specs: 'Vários diâmetros disponíveis | PE100',
       applications: ['Redes públicas', 'Grandes caudais', 'Condutas adutoras', 'Indústria']
     }
   ];
