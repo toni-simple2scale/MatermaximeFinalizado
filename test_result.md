@@ -244,7 +244,8 @@ metadata:
   run_ui: true
 
 test_plan:
-  current_focus: []
+  current_focus:
+    - "Pavimentos Clássicos e Técnicos Product Page"
   stuck_tasks: []
   test_all: false
   test_priority: "high_first"
