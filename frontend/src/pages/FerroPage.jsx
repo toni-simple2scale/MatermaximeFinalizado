@@ -11,7 +11,7 @@ const FerroPage = () => {
     name: '',
     phone: '',
     email: '',
-    product: 'Ferro de Construção',
+    product: 'Ferragens para Construção',
     quantity: '',
     message: ''
   });
