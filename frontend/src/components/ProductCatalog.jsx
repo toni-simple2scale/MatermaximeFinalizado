@@ -39,6 +39,14 @@ const ProductCatalog = () => {
     },
     {
       id: 5,
+      title: 'Muros',
+      description: 'Blocos e elementos para construção de muros e vedações.',
+      image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c',
+      items: ['Jardimuro', 'Murante', 'Gardenbloco', 'Pilar de Muro', 'Floreira', 'Cobremuros'],
+      link: '/produtos/muros'
+    },
+    {
+      id: 6,
       title: 'Ferragens para Construção',
       description: 'Varão de ferro de alta resistência em diferentes diâmetros.',
       image: 'https://images.pexels.com/photos/46167/iron-rods-reinforcing-bars-rods-steel-bars-46167.jpeg',
@@ -46,7 +54,7 @@ const ProductCatalog = () => {
       link: '/produtos/ferro'
     },
     {
-      id: 6,
+      id: 7,
       title: 'Tubagens',
       description: 'Tubos para águas, esgotos e instalações diversas.',
       image: 'https://images.unsplash.com/photo-1729169927271-7826d8aae360',
@@ -54,7 +62,7 @@ const ProductCatalog = () => {
       link: '/produtos/tubagens'
     },
     {
-      id: 7,
+      id: 8,
       title: 'Pré-moldados de Betão',
       description: 'Elementos pré-fabricados de betão armado para construção civil e infraestruturas.',
       image: 'https://images.unsplash.com/photo-1605810230434-7631ac76ec81',
@@ -62,7 +70,7 @@ const ProductCatalog = () => {
       link: '/produtos/pre-moldados'
     },
     {
-      id: 8,
+      id: 9,
       title: 'Ferramentas e Equipamentos',
       description: 'Ferramentas manuais e equipamentos profissionais para construção civil.',
       image: 'https://images.unsplash.com/photo-1586864387967-d02ef85d93e8',
@@ -70,7 +78,7 @@ const ProductCatalog = () => {
       link: '/produtos/ferramentas'
     },
     {
-      id: 9,
+      id: 10,
       title: 'Colas, Selantes e Vedantes',
       description: 'Produtos especializados para vedação, colagem e fixação.',
       image: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12',
@@ -78,20 +86,12 @@ const ProductCatalog = () => {
       link: '/produtos/colas-selantes'
     },
     {
-      id: 10,
+      id: 11,
       title: 'Saneamento e Esgotos',
       description: 'Soluções para sistemas de saneamento, drenagem e redes de esgotos.',
       image: 'https://images.unsplash.com/photo-1621905251918-48416bd8575a',
       items: ['Tampas e grelhas em aço'],
       link: '/produtos/saneamento'
-    },
-    {
-      id: 11,
-      title: 'Muros',
-      description: 'Blocos e elementos para construção de muros e vedações.',
-      image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c',
-      items: ['Jardimuro', 'Murante', 'Gardenbloco', 'Pilar de Muro', 'Floreira', 'Cobremuros'],
-      link: '/produtos/muros'
     }
   ];
 
