@@ -71,6 +71,14 @@ const ProductCatalog = () => {
     },
     {
       id: 9,
+      title: 'Pavimentos Clássicos e Técnicos',
+      description: 'Soluções em pavimentos para exterior, desde clássicos a sistemas drenantes.',
+      image: 'https://images.unsplash.com/photo-1623018035782-b269248df916',
+      items: ['Holanda', 'Hexagonal', 'Alfa', 'Uni', 'Ecopavé Drenante', 'Grelha de Enrelvamento'],
+      link: '/produtos/pavimentos'
+    },
+    {
+      id: 10,
       title: 'Materiais Diversos',
       description: 'Outros materiais essenciais para a sua obra.',
       image: 'https://images.pexels.com/photos/5079124/pexels-photo-5079124.jpeg',
