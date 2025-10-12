@@ -76,6 +76,22 @@ const ProductCatalog = () => {
       image: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12',
       items: ['Silicones e Selantes', 'Colas de Montagem', 'Cola de contacto', 'Pistolas aplicadoras', 'Acessórios'],
       link: '/produtos/colas-selantes'
+    },
+    {
+      id: 10,
+      title: 'Saneamento e Esgotos',
+      description: 'Soluções para sistemas de saneamento, drenagem e redes de esgotos.',
+      image: 'https://images.unsplash.com/photo-1621905251918-48416bd8575a',
+      items: ['Tampas e grelhas em aço'],
+      link: '/produtos/saneamento'
+    },
+    {
+      id: 11,
+      title: 'Muros',
+      description: 'Blocos e elementos para construção de muros e vedações.',
+      image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c',
+      items: ['Jardimuro', 'Murante', 'Gardenbloco', 'Pilar de Muro', 'Floreira', 'Cobremuros'],
+      link: '/produtos/muros'
     }
   ];
 
