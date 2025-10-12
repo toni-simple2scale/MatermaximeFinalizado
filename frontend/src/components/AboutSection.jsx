@@ -21,10 +21,10 @@ const AboutSection = () => {
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12 items-center mb-20">
+        <div className="flex justify-center mb-20">
           {/* Company Stats */}
-          <div>
-            <div className="grid grid-cols-2 gap-6 mb-8">
+          <div className="max-w-4xl">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-8">
               <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 text-center shadow-lg border border-gray-200/50">
                 <Building className="h-8 w-8 text-[#00BFFF] mx-auto mb-3" />
                 <div className="text-3xl font-bold text-gray-900 mb-1">25+</div>
@@ -50,9 +50,9 @@ const AboutSection = () => {
               </div>
             </div>
 
-            <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-gray-200/50">
+            <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-gray-200/50 text-center">
               <h4 className="font-bold text-gray-900 mb-3">Missão</h4>
-              <p className="text-gray-600 text-sm leading-relaxed">
+              <p className="text-gray-600 text-sm leading-relaxed max-w-2xl mx-auto">
                 Fornecer materiais de construção de qualidade superior com serviço 
                 excecional, contribuindo para o sucesso dos projetos dos nossos clientes.
               </p>
