@@ -55,6 +55,14 @@ const ProductCatalog = () => {
     },
     {
       id: 7,
+      title: 'Ferramentas e Equipamentos',
+      description: 'Ferramentas manuais e equipamentos profissionais para construção civil.',
+      image: 'https://images.unsplash.com/photo-1586864387967-d02ef85d93e8',
+      items: ['Colheres de pedreiro', 'Martelos', 'Níveis de bolha', 'Betoneiras', 'Equipamentos de proteção'],
+      link: '/produtos/ferramentas'
+    },
+    {
+      id: 8,
       title: 'Materiais Diversos',
       description: 'Outros materiais essenciais para a sua obra.',
       image: 'https://images.pexels.com/photos/5079124/pexels-photo-5079124.jpeg',
