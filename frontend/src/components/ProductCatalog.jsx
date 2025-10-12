@@ -76,14 +76,6 @@ const ProductCatalog = () => {
       image: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12',
       items: ['Silicones e Selantes', 'Colas de Montagem', 'Cola de contacto', 'Pistolas aplicadoras', 'Acessórios'],
       link: '/produtos/colas-selantes'
-    },
-    {
-      id: 10,
-      title: 'Materiais Diversos',
-      description: 'Outros materiais essenciais para a sua obra.',
-      image: 'https://images.pexels.com/photos/5079124/pexels-photo-5079124.jpeg',
-      items: ['Cal hidráulica', 'Gesso', 'Argamassas', 'Isolamentos'],
-      link: '/produtos/materiais-diversos'
     }
   ];
 
