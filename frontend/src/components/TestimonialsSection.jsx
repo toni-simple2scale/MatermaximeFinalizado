@@ -49,11 +49,9 @@ const TestimonialsSection = () => {
               {/* Author */}
               <div className="flex items-center">
                 <div className="w-12 h-12 bg-gradient-to-br from-[#00BFFF]/20 to-blue-200 rounded-full flex items-center justify-center mr-4">
-                  <img
-                    src={testimonial.image}
-                    alt={testimonial.name}
-                    className="w-10 h-10 rounded-full object-cover"
-                  />
+                  <div className="text-[#00BFFF] font-bold text-lg">
+                    {testimonial.name.charAt(0)}
+                  </div>
                 </div>
                 <div>
                   <div className="font-bold text-gray-900">{testimonial.name}</div>
