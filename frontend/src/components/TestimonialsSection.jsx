@@ -62,55 +62,7 @@ const TestimonialsSection = () => {
           ))}
         </div>
 
-        {/* Stats Section with Map */}
-        <div className="bg-white/70 backdrop-blur-sm rounded-3xl p-8 md:p-12 shadow-lg border border-gray-200/50">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            {/* Stats Grid */}
-            <div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-8 text-center">Números que Falam por Si</h3>
-              <div className="grid grid-cols-2 gap-6">
-                <div className="text-center">
-                  <div className="text-4xl font-bold text-[#00BFFF] mb-2">1000+</div>
-                  <div className="text-gray-600 font-medium">Clientes Satisfeitos</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-4xl font-bold text-[#00BFFF] mb-2">25+</div>
-                  <div className="text-gray-600 font-medium">Anos de Experiência</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-4xl font-bold text-[#00BFFF] mb-2">50k+</div>
-                  <div className="text-gray-600 font-medium">Entregas Realizadas</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-4xl font-bold text-[#00BFFF] mb-2">99%</div>
-                  <div className="text-gray-600 font-medium">Taxa de Satisfação</div>
-                </div>
-              </div>
-            </div>
-
-            {/* Google Maps */}
-            <div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4 text-center">Visite-nos</h3>
-              <div className="rounded-2xl overflow-hidden shadow-lg border border-gray-200">
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3112.1234567890123!2d-9.2345678901234567!3d38.8765432109876543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sRua%20do%20Alto%20das%20Mastrontas%208%2C%202715-311%20Almargem%20do%20Bispo!5e0!3m2!1spt!2spt!4v1234567890123"
-                  width="100%"
-                  height="300"
-                  style={{ border: 0 }}
-                  allowFullScreen=""
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                  title="Localização Armazém Matermaxime"
-                ></iframe>
-              </div>
-              <div className="mt-4 text-center">
-                <div className="text-sm font-semibold text-[#00BFFF]">Armazém</div>
-                <div className="text-sm text-gray-600">Rua do Alto das Mastrontas Nº8</div>
-                <div className="text-sm text-gray-600">2715-311 Almargem do Bispo</div>
-              </div>
-            </div>
-          </div>
-        </div>
+        {/* Section ends here */}
       </div>
     </section>
   );
