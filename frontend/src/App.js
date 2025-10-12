@@ -22,6 +22,7 @@ import TubagensPage from "./pages/TubagensPage";
 import MateriaisDiversosPage from "./pages/MateriaisDiversosPage";
 import PreMoldadosPage from "./pages/PreMoldadosPage";
 import FerramentasPage from "./pages/FerramentasPage";
+import ColasPage from "./pages/ColasPage";
 
 const HomePage = () => {
   return (
