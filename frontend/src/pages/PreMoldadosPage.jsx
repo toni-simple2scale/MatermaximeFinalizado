@@ -33,6 +33,24 @@ const PreMoldadosPage = () => {
       description: 'Elementos pré-fabricados para infraestruturas e canalizações.',
       specs: 'Várias dimensões e configurações',
       applications: ['Canalizações', 'Infraestruturas', 'Drenagem', 'Obras públicas']
+    },
+    {
+      name: 'Aneis de Betão',
+      description: 'Anéis pré-moldados em betão para poços, fossas e sistemas de drenagem.',
+      specs: 'Vários diâmetros e alturas | Alta resistência',
+      applications: ['Poços', 'Fossas sépticas', 'Sistemas de drenagem', 'Redes de saneamento']
+    },
+    {
+      name: 'Manilhas',
+      description: 'Tubos pré-fabricados em betão para redes de saneamento e drenagem.',
+      specs: 'Vários diâmetros disponíveis | Betão armado',
+      applications: ['Redes de esgotos', 'Drenagem pluvial', 'Águas residuais', 'Infraestruturas']
+    },
+    {
+      name: 'Caixas de Betão Com e Sem Fundo',
+      description: 'Caixas pré-fabricadas para visita, inspeção e câmaras diversas.',
+      specs: 'Com ou sem fundo | Várias dimensões',
+      applications: ['Caixas de visita', 'Inspeção de redes', 'Câmaras', 'Infraestruturas']
     }
   ];
 
