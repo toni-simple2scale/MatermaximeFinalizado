@@ -58,6 +58,8 @@ function App() {
           <Route path="/produtos/ferramentas" element={<FerramentasPage />} />
           <Route path="/produtos/colas-selantes" element={<ColasPage />} />
           <Route path="/produtos/pavimentos" element={<PavimentosPage />} />
+          <Route path="/produtos/saneamento" element={<SaneamentoPage />} />
+          <Route path="/produtos/muros" element={<MurosPage />} />
         </Routes>
       </BrowserRouter>
       <Toaster position="top-right" />
