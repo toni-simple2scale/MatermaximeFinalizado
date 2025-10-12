@@ -164,22 +164,7 @@ const BlocosTijolosPage = () => {
                     </div>
                   </div>
                 </div>
-                <div>
-                  <h3 className="text-2xl font-bold text-gray-900 mb-4">Cálculo de Quantidades</h3>
-                  <div className="space-y-3">
-                    <div className="bg-white rounded-lg p-4">
-                      <div className="text-sm font-semibold text-gray-900 mb-1">Parede 1m² (tijolo 30x20x11)</div>
-                      <div className="text-sm text-gray-600">≈ 16 tijolos + argamassa</div>
-                    </div>
-                    <div className="bg-white rounded-lg p-4">
-                      <div className="text-sm font-semibold text-gray-900 mb-1">Parede 1m² (bloco 20x20x40)</div>
-                      <div className="text-sm text-gray-600">≈ 12,5 blocos + argamassa</div>
-                    </div>
-                    <div className="text-xs text-gray-500 mt-2">
-                      *Cálculos aproximados. Contacte-nos para cálculo exato.
-                    </div>
-                  </div>
-                </div>
+                {/* Cálculo de Quantidades Removed */}
               </div>
             </div>
           </div>
