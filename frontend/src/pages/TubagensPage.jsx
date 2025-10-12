@@ -135,6 +135,13 @@ const TubagensPage = () => {
                 Contacte-nos para lista completa de acessórios específicos.
               </p>
             </div>
+            
+            {/* Additional Options Note */}
+            <div className="mt-8 p-4 bg-blue-50 rounded-lg border border-blue-200">
+              <p className="text-center text-gray-700 font-medium">
+                E mais opções sob consulta
+              </p>
+            </div>
 
             {/* Technical Info */}
             <div className="bg-gradient-to-r from-gray-50 to-blue-50 rounded-2xl p-8">
