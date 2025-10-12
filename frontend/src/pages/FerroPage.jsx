@@ -96,7 +96,7 @@ const FerroPage = () => {
             Voltar ao Catálogo
           </Link>
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            <span className="text-[#00BFFF]">Ferro</span> de Construção
+            <span className="text-[#00BFFF]">Ferragens</span> para Construção
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl">
             Varão de ferro de alta resistência em diferentes diâmetros para todas as aplicações estruturais.
