@@ -124,44 +124,23 @@ const FerroPage = () => {
 
             {/* Additional Info */}
             <div className="mt-12 bg-gradient-to-r from-gray-50 to-blue-50 rounded-2xl p-8">
-              <div className="grid md:grid-cols-2 gap-8">
-                <div>
-                  <h3 className="text-2xl font-bold text-gray-900 mb-4">Normas e Certificações</h3>
-                  <div className="space-y-3">
-                    <div className="flex items-center">
-                      <Shield className="h-5 w-5 text-[#00BFFF] mr-3" />
-                      <span className="text-gray-700">NP EN 10080 (Aço para betão armado)</span>
-                    </div>
-                    <div className="flex items-center">
-                      <Shield className="h-5 w-5 text-[#00BFFF] mr-3" />
-                      <span className="text-gray-700">Classe A500 NR SD</span>
-                    </div>
-                    <div className="flex items-center">
-                      <Shield className="h-5 w-5 text-[#00BFFF] mr-3" />
-                      <span className="text-gray-700">Certificação CE</span>
-                    </div>
-                    <div className="flex items-center">
-                      <Shield className="h-5 w-5 text-[#00BFFF] mr-3" />
-                      <span className="text-gray-700">LNEC aprovado</span>
-                    </div>
-                  </div>
-                </div>
+              <div className="text-center">
                 <div>
                   <h3 className="text-2xl font-bold text-gray-900 mb-4">Serviços Complementares</h3>
-                  <div className="space-y-3">
-                    <div className="flex items-center">
+                  <div className="grid md:grid-cols-2 gap-4 max-w-2xl mx-auto">
+                    <div className="flex items-center justify-center">
                       <Truck className="h-5 w-5 text-[#00BFFF] mr-3" />
                       <span className="text-gray-700">Corte à medida</span>
                     </div>
-                    <div className="flex items-center">
+                    <div className="flex items-center justify-center">
                       <Truck className="h-5 w-5 text-[#00BFFF] mr-3" />
                       <span className="text-gray-700">Dobragem de estribos</span>
                     </div>
-                    <div className="flex items-center">
+                    <div className="flex items-center justify-center">
                       <Truck className="h-5 w-5 text-[#00BFFF] mr-3" />
                       <span className="text-gray-700">Preparação de armaduras</span>
                     </div>
-                    <div className="flex items-center">
+                    <div className="flex items-center justify-center">
                       <Truck className="h-5 w-5 text-[#00BFFF] mr-3" />
                       <span className="text-gray-700">Cálculo de quantidades</span>
                     </div>
