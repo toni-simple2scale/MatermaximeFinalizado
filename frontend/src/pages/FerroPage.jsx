@@ -75,7 +75,7 @@ const FerroPage = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    alert('Pedido de orçamento para Ferro de Construção enviado com sucesso!');
+    alert('Pedido de orçamento para Ferragens para Construção enviado com sucesso!');
     setQuoteForm({ name: '', phone: '', email: '', product: 'Ferro de Construção', quantity: '', message: '' });
   };
 
