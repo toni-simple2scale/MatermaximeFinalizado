@@ -92,6 +92,14 @@ const ProductCatalog = () => {
       image: 'https://images.unsplash.com/photo-1621905251918-48416bd8575a',
       items: ['Tampas e grelhas em aço'],
       link: '/produtos/saneamento'
+    },
+    {
+      id: 12,
+      title: 'Aquecimento',
+      description: 'Soluções para aquecimento e climatização de espaços e águas.',
+      image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64',
+      items: ['Salamandras', 'Bombas de Calor', 'Esquentadores', 'Termoacumuladores'],
+      link: '/produtos/aquecimento'
     }
   ];
 
