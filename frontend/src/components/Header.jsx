@@ -8,6 +8,7 @@ const Header = () => {
   const menuItems = [
     { label: 'Produtos', href: '#produtos' },
     { label: 'Frota', href: '#frota' },
+    { label: 'Loja', href: '#nova-loja' },
     { label: 'Marcas', href: '#marcas' },
     { label: 'Sobre', href: '#sobre' },
     { label: 'Contacto', href: '#contacto' }
