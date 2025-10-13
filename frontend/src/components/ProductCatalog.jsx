@@ -25,7 +25,7 @@ const ProductCatalog = () => {
       id: 3,
       title: 'Blocos, Tijolos e Telhas',
       description: 'Ampla variedade de blocos, tijolos e telhas para construção e acabamentos.',
-      image: 'https://images.unsplash.com/photo-1657007508392-d68322544f70',
+      image: 'https://images.unsplash.com/photo-1657007508392-d68322544f70?w=600&h=400&fit=crop&q=80',
       items: ['Blocos de betão', 'Tijolos furados', 'Tijolos maciços', 'Telhas cerâmicas'],
       link: '/produtos/blocos-tijolos'
     },
