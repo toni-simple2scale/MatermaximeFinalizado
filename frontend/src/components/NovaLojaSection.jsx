@@ -72,23 +72,23 @@ const NovaLojaSection = () => {
 
           <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100 hover:shadow-xl transition-shadow duration-300">
             <div className="flex items-center justify-center w-16 h-16 bg-[#00BFFF]/10 rounded-full mb-6 mx-auto">
-              <MapPin className="h-8 w-8 text-[#00BFFF]" />
-            </div>
-            <h3 className="text-xl font-bold text-gray-900 mb-3 text-center">Localização</h3>
-            <p className="text-gray-600 text-center">
-              Avenida da Liberdade nº51B<br />
-              2715-001 - Pêro Pinheiro
-            </p>
-          </div>
-
-          <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100 hover:shadow-xl transition-shadow duration-300">
-            <div className="flex items-center justify-center w-16 h-16 bg-[#00BFFF]/10 rounded-full mb-6 mx-auto">
               <Clock className="h-8 w-8 text-[#00BFFF]" />
             </div>
             <h3 className="text-xl font-bold text-gray-900 mb-3 text-center">Horário</h3>
             <p className="text-gray-600 text-center">
               <strong>Segunda a Sexta:</strong><br />
               08:30 - 12:30 | 14:30 - 18:30
+            </p>
+          </div>
+
+          <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100 hover:shadow-xl transition-shadow duration-300">
+            <div className="flex items-center justify-center w-16 h-16 bg-[#00BFFF]/10 rounded-full mb-6 mx-auto">
+              <MapPin className="h-8 w-8 text-[#00BFFF]" />
+            </div>
+            <h3 className="text-xl font-bold text-gray-900 mb-3 text-center">Localização</h3>
+            <p className="text-gray-600 text-center">
+              Avenida da Liberdade nº51B<br />
+              2715-001 - Pêro Pinheiro
             </p>
           </div>
         </div>
