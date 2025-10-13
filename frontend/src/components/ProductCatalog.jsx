@@ -87,14 +87,6 @@ const ProductCatalog = () => {
     },
     {
       id: 11,
-      title: 'Saneamento e Esgotos',
-      description: 'Soluções para sistemas de saneamento, drenagem e redes de esgotos.',
-      image: 'https://images.unsplash.com/photo-1621905251918-48416bd8575a',
-      items: ['Tampas e grelhas em aço'],
-      link: '/produtos/saneamento'
-    },
-    {
-      id: 12,
       title: 'Aquecimento',
       description: 'Soluções para aquecimento e climatização de espaços e águas.',
       image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64',
