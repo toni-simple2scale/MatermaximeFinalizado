@@ -66,7 +66,7 @@ const NovaLojaSection = () => {
             </div>
             <h3 className="text-xl font-bold text-gray-900 mb-3 text-center">O Que Encontra</h3>
             <p className="text-gray-600 text-center">
-              Ferramentas, materiais de construção, tintas, isolamentos, produtos de limpeza, drogaria e muito mais para os seus projetos e obras
+              Ferramentas, materiais de construção, tintas, isolamentos, produtos de limpeza, drogaria e muito mais para os seus projetos
             </p>
           </div>
 
