@@ -172,51 +172,6 @@ const BanhoPage = () => {
               </p>
             </div>
 
-            {/* Brands Section */}
-            <div className="mt-12 bg-gradient-to-r from-white to-blue-50 rounded-2xl p-8 border border-gray-200">
-              <div className="text-center">
-                <div className="flex items-center justify-center mb-4">
-                  <Award className="h-8 w-8 text-[#00BFFF] mr-3" />
-                  <h3 className="text-2xl font-bold text-gray-900">Representantes Oficiais</h3>
-                </div>
-                <p className="text-gray-600 mb-8">
-                  Somos representantes oficiais das marcas líderes em equipamentos de banho
-                </p>
-                <div className="flex flex-wrap items-center justify-center gap-12">
-                  {/* Ofa Logo */}
-                  <div className="bg-white rounded-xl px-10 py-8 shadow-lg border border-gray-200 hover:shadow-xl transition-shadow duration-300">
-                    <img 
-                      src="https://customer-assets.emergentagent.com/job_matermaxime-build-1/artifacts/8bdosq72_276135029_1616255798739234_3905959924822161885_n.png" 
-                      alt="Ofa Logo" 
-                      className="h-20 w-auto object-contain"
-                      onError={(e) => {
-                        e.target.style.display = 'none';
-                        e.target.nextSibling.style.display = 'block';
-                      }}
-                    />
-                    <div style={{display: 'none'}} className="text-2xl font-bold text-[#00BFFF]">Ofa</div>
-                  </div>
-                  
-                  {/* Grohe Logo */}
-                  <div className="bg-white rounded-xl px-10 py-8 shadow-lg border border-gray-200 hover:shadow-xl transition-shadow duration-300">
-                    <img 
-                      src="https://images.seeklogo.com/logo-png/52/1/grohe-logo-png_seeklogo-526423.png" 
-                      alt="Grohe Logo" 
-                      className="h-16 w-auto object-contain"
-                      onError={(e) => {
-                        e.target.style.display = 'none';
-                        e.target.nextSibling.style.display = 'block';
-                      }}
-                    />
-                    <div style={{display: 'none'}} className="text-2xl font-bold text-[#00BFFF]">Grohe</div>
-                  </div>
-                </div>
-                <p className="text-sm text-gray-500 mt-6">
-                  Qualidade garantida e suporte técnico especializado
-                </p>
-              </div>
-            </div>
-
             {/* Additional Info */}
             <div className="mt-12 bg-gradient-to-r from-gray-50 to-blue-50 rounded-2xl p-8">
               <div className="text-center">
