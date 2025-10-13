@@ -116,6 +116,14 @@ const ProductCatalog = () => {
       image: 'https://images.unsplash.com/photo-1552321554-5fefe8c9ef14',
       items: ['Revestimentos', 'Banheiras & Duches', 'Torneiras', 'Móveis', 'Sanitários', 'Divisórias'],
       link: '/produtos/banho'
+    },
+    {
+      id: 15,
+      title: 'Eletrodomésticos',
+      description: 'Equipamentos de qualidade para a sua cozinha. Representante Oficial Teka.',
+      image: 'https://images.unsplash.com/photo-1556911220-bff31c812dba',
+      items: ['Exaustores', 'Placas de Indução', 'Fornos Elétricos e a Gás', 'Lava-Louças', 'Micro-Ondas', 'Frigoríficos'],
+      link: '/produtos/eletrodomesticos'
     }
   ];
 
