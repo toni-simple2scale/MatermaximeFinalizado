@@ -46,7 +46,7 @@ const ProtecaoVedacaoPage = () => {
       ]
     },
     {
-      category: 'B. Telas',
+      category: 'Telas',
       products: [
         {
           name: 'Tela anti-ervas',
