@@ -29,6 +29,7 @@ import AquecimentoPage from "./pages/AquecimentoPage";
 import IsolamentosPage from "./pages/IsolamentosPage";
 import ProtecaoVedacaoPage from "./pages/ProtecaoVedacaoPage";
 import BanhoPage from "./pages/BanhoPage";
+import TintasPage from "./pages/TintasPage";
 
 const HomePage = () => {
   return (
