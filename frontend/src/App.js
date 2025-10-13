@@ -10,6 +10,7 @@ import TestimonialsSection from "./components/TestimonialsSection";
 import BusinessHours from "./components/BusinessHours";
 import FAQSection from "./components/FAQSection";
 import AboutSection from "./components/AboutSection";
+import NovaLojaSection from "./components/NovaLojaSection";
 import Footer from "./components/Footer";
 import { Toaster } from "./components/ui/sonner";
 
