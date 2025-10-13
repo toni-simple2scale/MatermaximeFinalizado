@@ -49,12 +49,12 @@ const NovaLojaSection = () => {
           </div>
           
           <h2 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
-            Abriu a Nossa <span className="text-[#00BFFF]">Loja de Bricolage</span>
+            Abriu a Nossa <span className="text-[#00BFFF]">Nova Loja</span>
           </h2>
           
           <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
-            Estamos muito felizes em anunciar a abertura da nossa nova loja de bricolage! 
-            Venha conhecer o nosso espaço dedicado a todo o tipo de produtos e ferramentas para as suas obras e projetos.
+            Estamos muito felizes em anunciar a abertura da nossa nova loja! 
+            Venha conhecer o nosso espaço dedicado a todo o tipo de materiais de construção, ferramentas e soluções para as suas obras e projetos.
           </p>
         </div>
 
