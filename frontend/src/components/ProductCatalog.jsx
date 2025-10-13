@@ -33,7 +33,7 @@ const ProductCatalog = () => {
       id: 4,
       title: 'Pré-moldados de Betão',
       description: 'Elementos pré-fabricados de betão armado para construção civil e infraestruturas.',
-      image: 'https://images.unsplash.com/photo-1605810230434-7631ac76ec81?w=600&h=400&fit=crop&q=80',
+      image: 'https://images.unsplash.com/photo-1668935753304-d6fc8b2257b3?w=600&h=400&fit=crop&q=80',
       items: ['Vigas de Betão Pré-Moldadas', 'Cúpulas e Semi-Cúpulas', 'Caixas de Betão / Canalizações'],
       link: '/produtos/pre-moldados'
     },
