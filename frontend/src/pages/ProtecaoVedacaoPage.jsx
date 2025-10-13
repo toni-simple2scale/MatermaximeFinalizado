@@ -69,7 +69,7 @@ const ProtecaoVedacaoPage = () => {
       ]
     },
     {
-      category: 'C. Mangas Plásticas',
+      category: 'Mangas Plásticas',
       products: [
         {
           name: 'Manga plástica preta',
