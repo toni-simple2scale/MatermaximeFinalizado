@@ -24,6 +24,12 @@ const BlocosTijolosPage = () => {
       applications: ['Paredes estruturais', 'Muros de contenção', 'Fundações', 'Separações']
     },
     {
+      name: 'Blocos de Betão Face à Vista',
+      description: 'Blocos de betão com acabamento estético para construção sem necessidade de reboco.',
+      specs: 'Face à vista | Várias cores e texturas | Acabamento liso ou rugoso',
+      applications: ['Fachadas', 'Muros decorativos', 'Paredes aparentes', 'Arquitectura moderna']
+    },
+    {
       name: 'Blocos Térmicos',
       description: 'Blocos cerâmicos com isolamento térmico integrado.',
       specs: 'Várias dimensões | Isolamento integrado',
