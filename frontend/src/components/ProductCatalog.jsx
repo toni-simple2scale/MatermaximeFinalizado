@@ -108,6 +108,14 @@ const ProductCatalog = () => {
       image: 'https://images.unsplash.com/photo-1581094271901-8022df4466f9',
       items: ['Wallmate', 'Roofmate', 'Lã de Rocha', 'Lã de Vidro', 'Cortiça', 'Painéis Sandwich'],
       link: '/produtos/isolamentos'
+    },
+    {
+      id: 14,
+      title: 'Proteção e Vedação',
+      description: 'Redes, telas e mangas plásticas para proteção e delimitação.',
+      image: 'https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122',
+      items: ['Rede de vedação', 'Rede sombra', 'Tela anti-ervas', 'Mangas plásticas'],
+      link: '/produtos/protecao-vedacao'
     }
   ];
 
