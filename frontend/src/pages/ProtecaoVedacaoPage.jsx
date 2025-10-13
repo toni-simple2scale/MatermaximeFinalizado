@@ -17,7 +17,7 @@ const ProtecaoVedacaoPage = () => {
 
   const protecao = [
     {
-      category: 'A. Redes',
+      category: 'Redes',
       products: [
         {
           name: 'Rede de vedação',
