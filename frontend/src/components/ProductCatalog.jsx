@@ -81,7 +81,7 @@ const ProductCatalog = () => {
       id: 10,
       title: 'Aquecimento',
       description: 'Soluções para aquecimento e climatização de espaços e águas.',
-      image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=400&fit=crop&q=80',
+      image: 'https://images.unsplash.com/photo-1697807713065-7147df19212b?w=600&h=400&fit=crop&q=80',
       items: ['Salamandras', 'Bombas de Calor', 'Esquentadores', 'Termoacumuladores'],
       link: '/produtos/aquecimento'
     },
