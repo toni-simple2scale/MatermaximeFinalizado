@@ -116,6 +116,14 @@ const ProductCatalog = () => {
       image: 'https://images.unsplash.com/photo-1552321554-5fefe8c9ef14',
       items: ['Revestimentos', 'Banheiras & Duches', 'Torneiras', 'Móveis', 'Sanitários', 'Divisórias'],
       link: '/produtos/banho'
+    },
+    {
+      id: 16,
+      title: 'Tintas e Primários',
+      description: 'Tintas, impermeabilizantes e produtos para proteção de superfícies.',
+      image: 'https://images.unsplash.com/photo-1562259949-e8e7689d7828',
+      items: ['Tintas plásticas', 'Impermeabilizantes', 'Membranas líquidas', 'Betumes fibrados'],
+      link: '/produtos/tintas'
     }
   ];
 
