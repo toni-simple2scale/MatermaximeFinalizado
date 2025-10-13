@@ -62,13 +62,22 @@ const NovaLojaSection = () => {
         <div className="grid md:grid-cols-3 gap-8 mb-16">
           <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100 hover:shadow-xl transition-shadow duration-300">
             <div className="flex items-center justify-center w-16 h-16 bg-[#00BFFF]/10 rounded-full mb-6 mx-auto">
+              <Store className="h-8 w-8 text-[#00BFFF]" />
+            </div>
+            <h3 className="text-xl font-bold text-gray-900 mb-3 text-center">O Que Encontra</h3>
+            <p className="text-gray-600 text-center">
+              Ferramentas, materiais de construção, tintas, isolamentos e muito mais para os seus projetos e obras
+            </p>
+          </div>
+
+          <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100 hover:shadow-xl transition-shadow duration-300">
+            <div className="flex items-center justify-center w-16 h-16 bg-[#00BFFF]/10 rounded-full mb-6 mx-auto">
               <MapPin className="h-8 w-8 text-[#00BFFF]" />
             </div>
             <h3 className="text-xl font-bold text-gray-900 mb-3 text-center">Localização</h3>
             <p className="text-gray-600 text-center">
-              Av. Júlio Dinis 145<br />
-              2660-339 São Julião do Tojal<br />
-              Loures
+              Avenida da Liberdade nº51B<br />
+              2715-001 - Pêro Pinheiro
             </p>
           </div>
 
@@ -79,18 +88,7 @@ const NovaLojaSection = () => {
             <h3 className="text-xl font-bold text-gray-900 mb-3 text-center">Horário</h3>
             <p className="text-gray-600 text-center">
               <strong>Segunda a Sexta:</strong><br />
-              08:30 - 12:30 | 14:30 - 18:30<br />
-              <strong>Sábado:</strong> 09:00 - 13:00
-            </p>
-          </div>
-
-          <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100 hover:shadow-xl transition-shadow duration-300">
-            <div className="flex items-center justify-center w-16 h-16 bg-[#00BFFF]/10 rounded-full mb-6 mx-auto">
-              <Store className="h-8 w-8 text-[#00BFFF]" />
-            </div>
-            <h3 className="text-xl font-bold text-gray-900 mb-3 text-center">O Que Encontra</h3>
-            <p className="text-gray-600 text-center">
-              Ferramentas, materiais de construção, tintas, isolamentos e muito mais para os seus projetos e obras
+              08:30 - 12:30 | 14:30 - 18:30
             </p>
           </div>
         </div>
