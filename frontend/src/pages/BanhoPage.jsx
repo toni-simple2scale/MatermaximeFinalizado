@@ -132,20 +132,41 @@ const BanhoPage = () => {
               <div className="text-center">
                 <div className="flex items-center justify-center mb-4">
                   <Award className="h-8 w-8 text-[#00BFFF] mr-3" />
-                  <h3 className="text-2xl font-bold text-gray-900">Marcas Representadas</h3>
+                  <h3 className="text-2xl font-bold text-gray-900">Representantes Oficiais</h3>
                 </div>
-                <p className="text-gray-600 mb-6">
+                <p className="text-gray-600 mb-8">
                   Somos representantes oficiais das marcas líderes em equipamentos de banho
                 </p>
-                <div className="flex flex-wrap items-center justify-center gap-8">
-                  <div className="bg-white rounded-xl px-8 py-4 shadow-md border border-gray-200">
-                    <span className="text-2xl font-bold text-[#00BFFF]">Ofa</span>
+                <div className="flex flex-wrap items-center justify-center gap-12">
+                  {/* Ofa Logo */}
+                  <div className="bg-white rounded-xl px-10 py-8 shadow-lg border border-gray-200 hover:shadow-xl transition-shadow duration-300">
+                    <img 
+                      src="https://www.ofa.pt/images/logo.png" 
+                      alt="Ofa Logo" 
+                      className="h-16 w-auto object-contain"
+                      onError={(e) => {
+                        e.target.style.display = 'none';
+                        e.target.nextSibling.style.display = 'block';
+                      }}
+                    />
+                    <div style={{display: 'none'}} className="text-2xl font-bold text-[#00BFFF]">Ofa</div>
                   </div>
-                  <div className="bg-white rounded-xl px-8 py-4 shadow-md border border-gray-200">
-                    <span className="text-2xl font-bold text-[#00BFFF]">Grohe</span>
+                  
+                  {/* Grohe Logo */}
+                  <div className="bg-white rounded-xl px-10 py-8 shadow-lg border border-gray-200 hover:shadow-xl transition-shadow duration-300">
+                    <img 
+                      src="https://images.seeklogo.com/logo-png/52/1/grohe-logo-png_seeklogo-526423.png" 
+                      alt="Grohe Logo" 
+                      className="h-16 w-auto object-contain"
+                      onError={(e) => {
+                        e.target.style.display = 'none';
+                        e.target.nextSibling.style.display = 'block';
+                      }}
+                    />
+                    <div style={{display: 'none'}} className="text-2xl font-bold text-[#00BFFF]">Grohe</div>
                   </div>
                 </div>
-                <p className="text-sm text-gray-500 mt-4">
+                <p className="text-sm text-gray-500 mt-6">
                   Qualidade garantida e suporte técnico especializado
                 </p>
               </div>
