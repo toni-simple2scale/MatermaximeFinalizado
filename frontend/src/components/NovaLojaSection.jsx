@@ -103,7 +103,7 @@ const NovaLojaSection = () => {
               Galeria da Inauguração
             </h3>
             <p className="text-lg text-gray-600">
-              Veja as fotos da inauguração da nossa loja de bricolage
+              Veja as fotos da inauguração da nossa nova loja
             </p>
           </div>
 
