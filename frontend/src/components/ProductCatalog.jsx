@@ -65,7 +65,7 @@ const ProductCatalog = () => {
       id: 8,
       title: 'Proteção e Vedação',
       description: 'Redes, telas e mangas plásticas para proteção e delimitação.',
-      image: 'https://images.unsplash.com/photo-1627805460755-0f4a9a90c5f4?w=600&h=400&fit=crop&q=80',
+      image: 'https://images.unsplash.com/photo-1517265598349-76511a2fb389?w=600&h=400&fit=crop&q=80',
       items: ['Rede de vedação', 'Rede sombra', 'Tela anti-ervas', 'Mangas plásticas'],
       link: '/produtos/protecao-vedacao'
     },
