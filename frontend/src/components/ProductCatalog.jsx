@@ -116,6 +116,14 @@ const ProductCatalog = () => {
       image: 'https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122',
       items: ['Rede de vedação', 'Rede sombra', 'Tela anti-ervas', 'Mangas plásticas'],
       link: '/produtos/protecao-vedacao'
+    },
+    {
+      id: 15,
+      title: 'Banho',
+      description: 'Soluções completas para casa de banho. Representantes Ofa e Grohe.',
+      image: 'https://images.unsplash.com/photo-1552321554-5fefe8c9ef14',
+      items: ['Revestimentos', 'Banheiras & Duches', 'Torneiras', 'Móveis', 'Sanitários', 'Divisórias'],
+      link: '/produtos/banho'
     }
   ];
 
