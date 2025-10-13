@@ -55,8 +55,8 @@ const ProductCatalog = () => {
     },
     {
       id: 7,
-      title: 'Tubagens',
-      description: 'Tubos para águas, esgotos e instalações diversas.',
+      title: 'Saneamento e Esgotos',
+      description: 'Tubagens, sistemas de drenagem e soluções completas para saneamento básico.',
       image: 'https://images.unsplash.com/photo-1729169927271-7826d8aae360',
       items: ['Tubo PVC', 'Tubo corrugado', 'Tubo multicamadas', 'Acessórios'],
       link: '/produtos/tubagens'
