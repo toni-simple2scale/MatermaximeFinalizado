@@ -65,6 +65,7 @@ function App() {
           <Route path="/produtos/muros" element={<MurosPage />} />
           <Route path="/produtos/aquecimento" element={<AquecimentoPage />} />
           <Route path="/produtos/isolamentos" element={<IsolamentosPage />} />
+          <Route path="/produtos/protecao-vedacao" element={<ProtecaoVedacaoPage />} />
         </Routes>
       </BrowserRouter>
       <Toaster position="top-right" />
