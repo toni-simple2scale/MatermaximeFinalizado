@@ -31,6 +31,7 @@ import IsolamentosPage from "./pages/IsolamentosPage";
 import ProtecaoVedacaoPage from "./pages/ProtecaoVedacaoPage";
 import BanhoPage from "./pages/BanhoPage";
 import TintasPage from "./pages/TintasPage";
+import EletrodomesticosPage from "./pages/EletrodomesticosPage";
 
 const HomePage = () => {
   return (
