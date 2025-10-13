@@ -83,10 +83,10 @@ const TubagensPage = () => {
             Voltar ao Catálogo
           </Link>
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            <span className="text-[#00BFFF]">Tubagens</span> e Acessórios
+            <span className="text-[#00BFFF]">Saneamento</span> e Esgotos
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl">
-            Tubos para águas, esgotos e instalações diversas com todos os acessórios necessários.
+            Tubagens, sistemas de drenagem e soluções completas para saneamento básico.
           </p>
         </div>
       </div>
