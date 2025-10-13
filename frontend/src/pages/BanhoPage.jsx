@@ -143,7 +143,7 @@ const BanhoPage = () => {
                     <img 
                       src="https://customer-assets.emergentagent.com/job_matermaxime-build-1/artifacts/8bdosq72_276135029_1616255798739234_3905959924822161885_n.png" 
                       alt="Ofa Logo" 
-                      className="h-16 w-auto object-contain"
+                      className="h-20 w-auto object-contain"
                       onError={(e) => {
                         e.target.style.display = 'none';
                         e.target.nextSibling.style.display = 'block';
