@@ -85,20 +85,9 @@ const BanhoPage = () => {
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
             <span className="text-[#00BFFF]">Banho</span>
           </h1>
-          <p className="text-xl text-gray-600 max-w-3xl mb-6">
+          <p className="text-xl text-gray-600 max-w-3xl">
             Soluções completas para casa de banho, desde revestimentos a acessórios de alta qualidade.
           </p>
-          
-          {/* Representatives Badge */}
-          <div className="flex flex-wrap gap-4 items-center">
-            <div className="inline-flex items-center px-4 py-2 bg-white rounded-lg shadow-md border border-[#00BFFF]/20">
-              <Award className="h-5 w-5 text-[#00BFFF] mr-2" />
-              <span className="text-sm font-semibold text-gray-900">Representantes Oficiais:</span>
-              <span className="ml-2 text-sm font-bold text-[#00BFFF]">Ofa</span>
-              <span className="mx-2 text-gray-400">|</span>
-              <span className="text-sm font-bold text-[#00BFFF]">Grohe</span>
-            </div>
-          </div>
         </div>
       </div>
 
