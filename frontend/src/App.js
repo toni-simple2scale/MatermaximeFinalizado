@@ -26,6 +26,7 @@ import PavimentosPage from "./pages/PavimentosPage";
 import SaneamentoPage from "./pages/SaneamentoPage";
 import MurosPage from "./pages/MurosPage";
 import AquecimentoPage from "./pages/AquecimentoPage";
+import IsolamentosPage from "./pages/IsolamentosPage";
 
 const HomePage = () => {
   return (
