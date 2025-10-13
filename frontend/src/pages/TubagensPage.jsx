@@ -74,8 +74,8 @@ const TubagensPage = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    alert('Pedido de orçamento para Tubagens enviado com sucesso!');
-    setQuoteForm({ name: '', phone: '', email: '', product: 'Tubagens', quantity: '', message: '' });
+    alert('Pedido de orçamento para Saneamento e Esgotos enviado com sucesso!');
+    setQuoteForm({ name: '', phone: '', email: '', product: 'Saneamento e Esgotos', quantity: '', message: '' });
   };
 
   const handleInputChange = (e) => {
