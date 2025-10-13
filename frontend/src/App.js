@@ -44,6 +44,7 @@ const HomePage = () => {
       <BusinessHours />
       <FAQSection />
       <AboutSection />
+      <NovaLojaSection />
       <Footer />
     </div>
   );
