@@ -102,7 +102,7 @@ const BlocosTijolosPage = () => {
             Voltar ao Catálogo
           </Link>
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            <span className="text-[#00BFFF]">Blocos</span> e Tijolos
+            <span className="text-[#00BFFF]">Blocos,</span> Tijolos e Telhas
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl">
             Ampla variedade de blocos e tijolos para construção e acabamentos.
