@@ -49,7 +49,7 @@ const ProductCatalog = () => {
       id: 6,
       title: 'Muros',
       description: 'Blocos e elementos para construção de muros e vedações.',
-      image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c',
+      image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&h=400&fit=crop&q=80',
       items: ['Jardimuro', 'Murante', 'Gardenbloco', 'Pilar de Muro', 'Floreira', 'Cobremuros'],
       link: '/produtos/muros'
     },
