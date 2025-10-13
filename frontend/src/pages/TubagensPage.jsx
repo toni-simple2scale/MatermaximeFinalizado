@@ -46,6 +46,18 @@ const TubagensPage = () => {
       description: 'Tubo de polietileno para redes de distribuição de água.',
       specs: 'Vários diâmetros disponíveis | PE100',
       applications: ['Redes públicas', 'Grandes caudais', 'Condutas adutoras', 'Indústria']
+    },
+    {
+      name: 'Tampas e Grelhas em Aço',
+      description: 'Tampas e grelhas robustas em aço para sistemas de saneamento e drenagem.',
+      specs: 'Material: Aço galvanizado | Várias dimensões e classes de carga',
+      applications: ['Saneamento básico', 'Sistemas de drenagem', 'Redes de esgotos', 'Áreas públicas e privadas']
+    },
+    {
+      name: 'Tampas em Ferro Fundido',
+      description: 'Tampas de elevada resistência em ferro fundido para infraestruturas.',
+      specs: 'Ferro fundido dúctil | Várias classes de carga (A15, B125, C250, D400)',
+      applications: ['Redes de saneamento', 'Câmaras de visita', 'Zonas de tráfego', 'Infraestruturas públicas']
     }
   ];
 
