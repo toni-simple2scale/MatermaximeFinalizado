@@ -105,7 +105,7 @@ const NovaLojaSection = () => {
             </p>
           </div>
 
-          {/* Photo Grid */}
+          {/* Photo Grid - Formato Vertical */}
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
             {galeriaFotos.map((foto, index) => (
               <div 
@@ -116,7 +116,7 @@ const NovaLojaSection = () => {
                 <img 
                   src={foto.url} 
                   alt={foto.alt}
-                  className="w-full h-64 object-cover transform group-hover:scale-110 transition-transform duration-500"
+                  className="w-full h-80 object-cover transform group-hover:scale-110 transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   <div className="absolute bottom-4 left-4 right-4">
