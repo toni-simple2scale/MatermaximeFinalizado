@@ -89,7 +89,7 @@ const ProductCatalog = () => {
       id: 11,
       title: 'Tintas e Primários',
       description: 'Tintas, impermeabilizantes e produtos para proteção de superfícies.',
-      image: 'https://images.unsplash.com/photo-1562259949-e8e7689d7828',
+      image: 'https://images.unsplash.com/photo-1562259949-e8e7689d7828?w=600&h=400&fit=crop&q=80',
       items: ['Tintas plásticas', 'Impermeabilizantes', 'Membranas líquidas', 'Betumes fibrados'],
       link: '/produtos/tintas'
     },
