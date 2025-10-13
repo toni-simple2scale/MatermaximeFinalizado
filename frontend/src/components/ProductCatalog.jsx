@@ -31,38 +31,6 @@ const ProductCatalog = () => {
     },
     {
       id: 4,
-      title: 'Pavimentos Clássicos e Técnicos',
-      description: 'Soluções em pavimentos para exterior, desde clássicos a sistemas drenantes.',
-      image: 'https://images.unsplash.com/photo-1623018035782-b269248df916',
-      items: ['Holanda', 'Hexagonal', 'Alfa', 'Uni', 'Ecopavé Drenante', 'Grelha de Enrelvamento'],
-      link: '/produtos/pavimentos'
-    },
-    {
-      id: 5,
-      title: 'Muros',
-      description: 'Blocos e elementos para construção de muros e vedações.',
-      image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c',
-      items: ['Jardimuro', 'Murante', 'Gardenbloco', 'Pilar de Muro', 'Floreira', 'Cobremuros'],
-      link: '/produtos/muros'
-    },
-    {
-      id: 6,
-      title: 'Ferragens para Construção',
-      description: 'Varão de ferro de alta resistência em diferentes diâmetros.',
-      image: 'https://images.pexels.com/photos/46167/iron-rods-reinforcing-bars-rods-steel-bars-46167.jpeg',
-      items: ['Varão ø6mm', 'Varão ø8mm', 'Varão ø10mm', 'Varão ø12mm', 'Rede electrossoldada'],
-      link: '/produtos/ferro'
-    },
-    {
-      id: 7,
-      title: 'Saneamento e Esgotos',
-      description: 'Tubagens, sistemas de drenagem e soluções completas para saneamento básico.',
-      image: 'https://images.unsplash.com/photo-1729169927271-7826d8aae360',
-      items: ['Tubo PVC', 'Tubo corrugado', 'Tubo multicamadas', 'Acessórios'],
-      link: '/produtos/tubagens'
-    },
-    {
-      id: 8,
       title: 'Pré-moldados de Betão',
       description: 'Elementos pré-fabricados de betão armado para construção civil e infraestruturas.',
       image: 'https://images.unsplash.com/photo-1605810230434-7631ac76ec81',
@@ -70,31 +38,23 @@ const ProductCatalog = () => {
       link: '/produtos/pre-moldados'
     },
     {
-      id: 9,
-      title: 'Ferramentas e Equipamentos',
-      description: 'Ferramentas manuais e equipamentos profissionais para construção civil.',
-      image: 'https://images.unsplash.com/photo-1586864387967-d02ef85d93e8',
-      items: ['Colheres de pedreiro', 'Martelos', 'Níveis de bolha', 'Betoneiras', 'Equipamentos de proteção'],
-      link: '/produtos/ferramentas'
+      id: 5,
+      title: 'Pavimentos Clássicos e Técnicos',
+      description: 'Soluções em pavimentos para exterior, desde clássicos a sistemas drenantes.',
+      image: 'https://images.unsplash.com/photo-1623018035782-b269248df916',
+      items: ['Holanda', 'Hexagonal', 'Alfa', 'Uni', 'Ecopavé Drenante', 'Grelha de Enrelvamento'],
+      link: '/produtos/pavimentos'
     },
     {
-      id: 10,
-      title: 'Colas, Selantes e Vedantes',
-      description: 'Produtos especializados para vedação, colagem e fixação.',
-      image: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12',
-      items: ['Silicones e Selantes', 'Colas de Montagem', 'Cola de contacto', 'Pistolas aplicadoras', 'Acessórios'],
-      link: '/produtos/colas-selantes'
+      id: 6,
+      title: 'Muros',
+      description: 'Blocos e elementos para construção de muros e vedações.',
+      image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c',
+      items: ['Jardimuro', 'Murante', 'Gardenbloco', 'Pilar de Muro', 'Floreira', 'Cobremuros'],
+      link: '/produtos/muros'
     },
     {
-      id: 11,
-      title: 'Aquecimento',
-      description: 'Soluções para aquecimento e climatização de espaços e águas.',
-      image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64',
-      items: ['Salamandras', 'Bombas de Calor', 'Esquentadores', 'Termoacumuladores'],
-      link: '/produtos/aquecimento'
-    },
-    {
-      id: 13,
+      id: 7,
       title: 'Isolamentos Térmicos e Acústicos',
       description: 'Soluções completas de isolamento térmico, acústico e impermeabilização.',
       image: 'https://images.unsplash.com/photo-1581094271901-8022df4466f9',
@@ -102,7 +62,7 @@ const ProductCatalog = () => {
       link: '/produtos/isolamentos'
     },
     {
-      id: 14,
+      id: 8,
       title: 'Proteção e Vedação',
       description: 'Redes, telas e mangas plásticas para proteção e delimitação.',
       image: 'https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122',
@@ -110,20 +70,52 @@ const ProductCatalog = () => {
       link: '/produtos/protecao-vedacao'
     },
     {
-      id: 15,
-      title: 'Banho',
-      description: 'Soluções completas para casa de banho. Representantes Ofa e Grohe.',
-      image: 'https://images.unsplash.com/photo-1552321554-5fefe8c9ef14',
-      items: ['Revestimentos', 'Banheiras & Duches', 'Torneiras', 'Móveis', 'Sanitários', 'Divisórias'],
-      link: '/produtos/banho'
+      id: 9,
+      title: 'Saneamento e Esgotos',
+      description: 'Tubagens, sistemas de drenagem e soluções completas para saneamento básico.',
+      image: 'https://images.unsplash.com/photo-1729169927271-7826d8aae360',
+      items: ['Tubo PVC', 'Tubo corrugado', 'Tubo multicamadas', 'Acessórios'],
+      link: '/produtos/tubagens'
     },
     {
-      id: 16,
+      id: 10,
+      title: 'Aquecimento',
+      description: 'Soluções para aquecimento e climatização de espaços e águas.',
+      image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64',
+      items: ['Salamandras', 'Bombas de Calor', 'Esquentadores', 'Termoacumuladores'],
+      link: '/produtos/aquecimento'
+    },
+    {
+      id: 11,
       title: 'Tintas e Primários',
       description: 'Tintas, impermeabilizantes e produtos para proteção de superfícies.',
       image: 'https://images.unsplash.com/photo-1562259949-e8e7689d7828',
       items: ['Tintas plásticas', 'Impermeabilizantes', 'Membranas líquidas', 'Betumes fibrados'],
       link: '/produtos/tintas'
+    },
+    {
+      id: 12,
+      title: 'Colas, Selantes e Vedantes',
+      description: 'Produtos especializados para vedação, colagem e fixação.',
+      image: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12',
+      items: ['Silicones e Selantes', 'Colas de Montagem', 'Cola de contacto', 'Pistolas aplicadoras', 'Acessórios'],
+      link: '/produtos/colas-selantes'
+    },
+    {
+      id: 13,
+      title: 'Ferramentas e Equipamentos',
+      description: 'Ferramentas manuais e equipamentos profissionais para construção civil.',
+      image: 'https://images.unsplash.com/photo-1586864387967-d02ef85d93e8',
+      items: ['Colheres de pedreiro', 'Martelos', 'Níveis de bolha', 'Betoneiras', 'Equipamentos de proteção'],
+      link: '/produtos/ferramentas'
+    },
+    {
+      id: 14,
+      title: 'Banho',
+      description: 'Soluções completas para casa de banho. Representantes Ofa e Grohe.',
+      image: 'https://images.unsplash.com/photo-1552321554-5fefe8c9ef14',
+      items: ['Revestimentos', 'Banheiras & Duches', 'Torneiras', 'Móveis', 'Sanitários', 'Divisórias'],
+      link: '/produtos/banho'
     }
   ];
 
