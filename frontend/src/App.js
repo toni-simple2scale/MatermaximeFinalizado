@@ -39,12 +39,12 @@ const HomePage = () => {
       <HeroSection />
       <ProductCatalog />
       <FleetSection />
+      <NovaLojaSection />
       <BrandPartners />
       <TestimonialsSection />
-      <BusinessHours />
       <FAQSection />
       <AboutSection />
-      <NovaLojaSection />
+      <BusinessHours />
       <Footer />
     </div>
   );
