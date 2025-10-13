@@ -141,7 +141,7 @@ const BanhoPage = () => {
                   {/* Ofa Logo */}
                   <div className="bg-white rounded-xl px-10 py-8 shadow-lg border border-gray-200 hover:shadow-xl transition-shadow duration-300">
                     <img 
-                      src="https://www.ofa.pt/images/logo.png" 
+                      src="https://customer-assets.emergentagent.com/job_matermaxime-build-1/artifacts/8bdosq72_276135029_1616255798739234_3905959924822161885_n.png" 
                       alt="Ofa Logo" 
                       className="h-16 w-auto object-contain"
                       onError={(e) => {
