@@ -97,7 +97,7 @@ const ProductCatalog = () => {
       id: 12,
       title: 'Colas, Selantes e Vedantes',
       description: 'Produtos especializados para vedação, colagem e fixação.',
-      image: 'https://images.pexels.com/photos/6124242/pexels-photo-6124242.jpeg?w=600&h=400&fit=crop&q=80',
+      image: 'https://customer-assets.emergentagent.com/job_matermaxime-store/artifacts/ti6ox2tw_ChatGPT%20Image%20Oct%2016%2C%202025%2C%2002_44_49%20PM.png',
       items: ['Silicones e Selantes', 'Colas de Montagem', 'Cola de contacto', 'Pistolas aplicadoras', 'Acessórios'],
       link: '/produtos/colas-selantes'
     },
