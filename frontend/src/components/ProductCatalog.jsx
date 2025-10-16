@@ -87,19 +87,19 @@ const ProductCatalog = () => {
     },
     {
       id: 11,
-      title: 'Tintas e Primários',
-      description: 'Tintas, impermeabilizantes e produtos para proteção de superfícies.',
-      image: 'https://images.unsplash.com/photo-1562259949-e8e7689d7828?w=600&h=400&fit=crop&q=80',
-      items: ['Tintas plásticas', 'Impermeabilizantes', 'Membranas líquidas', 'Betumes fibrados'],
-      link: '/produtos/tintas'
-    },
-    {
-      id: 12,
       title: 'Colas, Selantes e Vedantes',
       description: 'Produtos especializados para vedação, colagem e fixação.',
       image: 'https://customer-assets.emergentagent.com/job_matermaxime-store/artifacts/ti6ox2tw_ChatGPT%20Image%20Oct%2016%2C%202025%2C%2002_44_49%20PM.png',
       items: ['Silicones e Selantes', 'Colas de Montagem', 'Cola de contacto', 'Pistolas aplicadoras', 'Acessórios'],
       link: '/produtos/colas-selantes'
+    },
+    {
+      id: 12,
+      title: 'Tintas e Primários',
+      description: 'Tintas, impermeabilizantes e produtos para proteção de superfícies.',
+      image: 'https://images.unsplash.com/photo-1562259949-e8e7689d7828?w=600&h=400&fit=crop&q=80',
+      items: ['Tintas plásticas', 'Impermeabilizantes', 'Membranas líquidas', 'Betumes fibrados'],
+      link: '/produtos/tintas'
     },
     {
       id: 13,
