@@ -57,7 +57,7 @@ const ProductCatalog = () => {
       id: 7,
       title: 'Isolamentos Térmicos e Acústicos',
       description: 'Soluções completas de isolamento térmico, acústico e impermeabilização.',
-      image: 'https://images.unsplash.com/photo-1543525324-dc2c9006d03d?w=600&h=400&fit=crop&q=80',
+      image: 'https://customer-assets.emergentagent.com/job_matermaxime-store/artifacts/jzont5c0_ChatGPT%20Image%20Oct%2016%2C%202025%2C%2002_34_41%20PM.png',
       items: ['Wallmate', 'Roofmate', 'Lã de Rocha', 'Lã de Vidro', 'Cortiça', 'Painéis Sandwich'],
       link: '/produtos/isolamentos'
     },
