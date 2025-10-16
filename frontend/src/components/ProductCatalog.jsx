@@ -95,19 +95,19 @@ const ProductCatalog = () => {
     },
     {
       id: 12,
-      title: 'Tintas e Primários',
-      description: 'Tintas, impermeabilizantes e produtos para proteção de superfícies.',
-      image: 'https://images.unsplash.com/photo-1562259949-e8e7689d7828?w=600&h=400&fit=crop&q=80',
-      items: ['Tintas plásticas', 'Impermeabilizantes', 'Membranas líquidas', 'Betumes fibrados'],
-      link: '/produtos/tintas'
-    },
-    {
-      id: 13,
       title: 'Ferramentas e Equipamentos',
       description: 'Ferramentas manuais e equipamentos profissionais para construção civil.',
       image: 'https://customer-assets.emergentagent.com/job_matermaxime-store/artifacts/lyxquexw_ChatGPT%20Image%20Oct%2016%2C%202025%2C%2002_40_48%20PM.png',
       items: ['Colheres de pedreiro', 'Martelos', 'Níveis de bolha', 'Betoneiras', 'Equipamentos de proteção'],
       link: '/produtos/ferramentas'
+    },
+    {
+      id: 13,
+      title: 'Tintas e Primários',
+      description: 'Tintas, impermeabilizantes e produtos para proteção de superfícies.',
+      image: 'https://images.unsplash.com/photo-1562259949-e8e7689d7828?w=600&h=400&fit=crop&q=80',
+      items: ['Tintas plásticas', 'Impermeabilizantes', 'Membranas líquidas', 'Betumes fibrados'],
+      link: '/produtos/tintas'
     },
     {
       id: 14,
