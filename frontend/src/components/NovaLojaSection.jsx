@@ -88,14 +88,14 @@ const NovaLojaSection = () => {
           <div className="text-center mb-10">
             <h3 className="text-4xl font-bold text-gray-900 mb-4">
               <Calendar className="inline-block h-8 w-8 text-[#00BFFF] mr-3 mb-1" />
-              Galeria da Inauguração
+              Inauguração
             </h3>
             <p className="text-lg text-gray-600">
               Veja as fotos da inauguração da nossa nova loja
             </p>
           </div>
 
-          {/* Photo Grid - Formato Vertical */}
+          {/* Photo Grid */}
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
             {galeriaFotos.map((foto, index) => (
               <div 
@@ -108,11 +108,6 @@ const NovaLojaSection = () => {
                   alt={foto.alt}
                   className="w-full h-80 object-cover transform group-hover:scale-110 transition-transform duration-500"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <div className="absolute bottom-4 left-4 right-4">
-                    <p className="text-white font-semibold">{foto.caption}</p>
-                  </div>
-                </div>
               </div>
             ))}
           </div>
