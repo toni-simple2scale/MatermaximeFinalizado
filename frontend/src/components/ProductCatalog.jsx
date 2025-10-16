@@ -49,7 +49,7 @@ const ProductCatalog = () => {
       id: 6,
       title: 'Muros',
       description: 'Blocos e elementos para construção de muros e vedações.',
-      image: 'https://customer-assets.emergentagent.com/job_matermaxime-store/artifacts/d61qro42_63772e2910ae8832492062.jpeg',
+      image: 'https://customer-assets.emergentagent.com/job_matermaxime-store/artifacts/iaf566tn_ChatGPT%20Image%20Oct%2016%2C%202025%2C%2002_25_06%20PM.png',
       items: ['Jardimuro', 'Murante', 'Gardenbloco', 'Pilar de Muro', 'Floreira', 'Cobremuros'],
       link: '/produtos/muros'
     },
