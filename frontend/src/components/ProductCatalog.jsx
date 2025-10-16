@@ -9,7 +9,7 @@ const ProductCatalog = () => {
       id: 1,
       title: 'Agregados',
       description: 'Areias, britas e cascalho de diferentes granulometrias para todas as aplicações.',
-      image: 'https://images.unsplash.com/photo-1649796877686-847d6bdeea6b?w=600&h=400&fit=crop&q=80',
+      image: 'https://customer-assets.emergentagent.com/job_matermaxime-store/artifacts/5xgi4fcc_ChatGPT%20Image%20Oct%2016%2C%202025%2C%2002_22_02%20PM.png',
       items: ['Areia do Rio', 'Areia Branca', 'Areia Amarela', 'Saibro', 'Brita 1', 'Brita 2', 'Brita 3'],
       link: '/produtos/agregados'
     },
