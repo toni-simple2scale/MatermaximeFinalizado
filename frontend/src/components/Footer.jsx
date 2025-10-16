@@ -37,6 +37,16 @@ const Footer = () => {
                 Mais de 25 anos a fornecer materiais de construção de qualidade 
                 superior com entrega garantida em toda a região de Lisboa.
               </p>
+              
+              {/* Selo Melhores PME */}
+              <div className="mb-6">
+                <img 
+                  src="https://customer-assets.emergentagent.com/job_matermaxime-store/artifacts/jmwus4bm_Design%20sem%20nome%20%281%29.png" 
+                  alt="Scoring TOP 5% Melhores PME Portugal 2025" 
+                  className="w-32 h-auto"
+                />
+              </div>
+              
               <div className="flex space-x-4">
                 <a href="https://www.facebook.com/profile.php?id=61577107497968" target="_blank" rel="noopener noreferrer" className="bg-gray-800 hover:bg-[#00BFFF] p-3 rounded-full transition-colors duration-300">
                   <Facebook className="h-5 w-5" />
