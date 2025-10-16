@@ -19,13 +19,13 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <div className="flex items-center">
+          <a href="#" className="flex items-center cursor-pointer">
             <img 
               src="https://customer-assets.emergentagent.com/job_matermaxime-store/artifacts/1m0s5sp0_MATERMAXIME-LOGO-sem-fundo.png" 
               alt="Matermaxime Logo" 
-              className="h-16 w-auto mt-1"
+              className="h-16 w-auto mt-1 transition-transform duration-300 hover:scale-105"
             />
-          </div>
+          </a>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
