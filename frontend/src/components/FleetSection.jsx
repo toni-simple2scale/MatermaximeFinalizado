@@ -63,7 +63,7 @@ const FleetSection = () => {
           <div className="relative">
             <div className="rounded-3xl overflow-hidden shadow-2xl">
               <img
-                src="https://images.unsplash.com/photo-1723369962510-e1bf627435e2"
+                src="https://customer-assets.emergentagent.com/job_matermaxime-store/artifacts/gkgx07da_IMG_20181231_165304.jpg"
                 alt="Frota Matermaxime"
                 className="w-full h-64 md:h-80 object-cover"
               />
