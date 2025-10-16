@@ -25,6 +25,10 @@ const NovaLojaSection = () => {
     {
       url: 'https://customer-assets.emergentagent.com/job_matermaxime-store/artifacts/jjr1u7lc_5-min.png',
       alt: 'Inauguração da Loja - Foto 5'
+    },
+    {
+      url: 'https://customer-assets.emergentagent.com/job_matermaxime-store/artifacts/7ixal021_6-min.png',
+      alt: 'Inauguração da Loja - Foto 6'
     }
   ];
 
