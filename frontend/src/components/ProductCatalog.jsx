@@ -17,7 +17,7 @@ const ProductCatalog = () => {
       id: 2,
       title: 'Cimentos e Rebocos',
       description: 'Cimentos e Rebocos de alta qualidade das melhores marcas.',
-      image: 'https://images.unsplash.com/photo-1673865641469-34498379d8af?w=600&h=400&fit=crop&q=80',
+      image: 'https://customer-assets.emergentagent.com/job_matermaxime-store/artifacts/48tvhaad_Design%20sem%20nome.png',
       items: ['Cimento', 'Cimento Branco', 'Cimento Cola Branco/Cinza', 'Cimento Cola Flexível', 'Reboco Interior', 'Reboco Exterior'],
       link: '/produtos/cimento'
     },
