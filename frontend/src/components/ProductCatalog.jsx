@@ -121,7 +121,7 @@ const ProductCatalog = () => {
       id: 15,
       title: 'Eletrodomésticos',
       description: 'Equipamentos de qualidade para a sua cozinha. Representante Oficial Teka.',
-      image: 'https://images.unsplash.com/photo-1556911220-bff31c812dba?w=600&h=400&fit=crop&q=80',
+      image: 'https://customer-assets.emergentagent.com/job_matermaxime-store/artifacts/yaazrqqq_ChatGPT%20Image%20Oct%2016%2C%202025%2C%2002_51_22%20PM.png',
       items: ['Exaustores', 'Placas de Indução', 'Fornos Elétricos e a Gás', 'Lava-Louças', 'Micro-Ondas', 'Frigoríficos'],
       link: '/produtos/eletrodomesticos'
     }
