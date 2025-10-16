@@ -23,7 +23,7 @@ const Header = () => {
             <img 
               src="https://customer-assets.emergentagent.com/job_matermaxime-store/artifacts/1m0s5sp0_MATERMAXIME-LOGO-sem-fundo.png" 
               alt="Matermaxime Logo" 
-              className="h-12 w-auto"
+              className="h-16 w-auto"
             />
           </div>
 
