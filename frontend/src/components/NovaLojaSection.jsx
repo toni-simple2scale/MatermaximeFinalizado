@@ -143,9 +143,6 @@ const NovaLojaSection = () => {
               alt={selectedImage.alt}
               className="w-full h-auto rounded-lg shadow-2xl"
             />
-            <p className="text-white text-center mt-4 text-xl font-semibold">
-              {selectedImage.caption}
-            </p>
           </div>
         </div>
       )}
