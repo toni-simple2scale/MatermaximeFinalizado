@@ -113,7 +113,7 @@ const ProductCatalog = () => {
       id: 14,
       title: 'Banho',
       description: 'Soluções completas para casa de banho. Representantes Ofa e Grohe.',
-      image: 'https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=600&h=400&fit=crop&q=80',
+      image: 'https://customer-assets.emergentagent.com/job_matermaxime-store/artifacts/1ewcc07b_ChatGPT%20Image%20Oct%2016%2C%202025%2C%2002_47_37%20PM.png',
       items: ['Revestimentos', 'Banheiras & Duches', 'Torneiras', 'Móveis', 'Sanitários', 'Divisórias'],
       link: '/produtos/banho'
     },
