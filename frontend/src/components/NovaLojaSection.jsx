@@ -4,37 +4,27 @@ import { Store, MapPin, Clock, Calendar, ArrowRight, X } from 'lucide-react';
 const NovaLojaSection = () => {
   const [selectedImage, setSelectedImage] = useState(null);
 
-  // Placeholder images em formato vertical - estas podem ser substituídas pelas fotos reais da inauguração
+  // Fotos reais da inauguração
   const galeriaFotos = [
     {
-      url: 'https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=600&h=800&fit=crop',
-      alt: 'Inauguração da Loja - Foto 1',
-      caption: 'Momento da inauguração'
+      url: 'https://customer-assets.emergentagent.com/job_matermaxime-store/artifacts/7ifarnpr_1-min.png',
+      alt: 'Inauguração da Loja - Foto 1'
     },
     {
-      url: 'https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=600&h=800&fit=crop',
-      alt: 'Inauguração da Loja - Foto 2',
-      caption: 'Espaço interior da loja'
+      url: 'https://customer-assets.emergentagent.com/job_matermaxime-store/artifacts/ozai9mpi_2-min.png',
+      alt: 'Inauguração da Loja - Foto 2'
     },
     {
-      url: 'https://images.unsplash.com/photo-1513467535987-fd81bc7d62f8?w=600&h=800&fit=crop',
-      alt: 'Inauguração da Loja - Foto 3',
-      caption: 'Produtos em exposição'
+      url: 'https://customer-assets.emergentagent.com/job_matermaxime-store/artifacts/qvgu5p1p_3-min.png',
+      alt: 'Inauguração da Loja - Foto 3'
     },
     {
-      url: 'https://images.unsplash.com/photo-1556911220-bff31c812dba?w=600&h=800&fit=crop',
-      alt: 'Inauguração da Loja - Foto 4',
-      caption: 'Secção de ferramentas'
+      url: 'https://customer-assets.emergentagent.com/job_matermaxime-store/artifacts/8t1zs4w0_4-min.png',
+      alt: 'Inauguração da Loja - Foto 4'
     },
     {
-      url: 'https://images.unsplash.com/photo-1615870216519-2f9fa575fa5c?w=600&h=800&fit=crop',
-      alt: 'Inauguração da Loja - Foto 5',
-      caption: 'Equipa da loja'
-    },
-    {
-      url: 'https://images.unsplash.com/photo-1513467535987-fd81bc7d62f8?w=600&h=800&fit=crop',
-      alt: 'Inauguração da Loja - Foto 6',
-      caption: 'Vista geral da loja'
+      url: 'https://customer-assets.emergentagent.com/job_matermaxime-store/artifacts/jjr1u7lc_5-min.png',
+      alt: 'Inauguração da Loja - Foto 5'
     }
   ];
 
