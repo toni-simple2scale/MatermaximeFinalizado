@@ -81,8 +81,25 @@ const FerroPage = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    alert('Pedido de orçamento para Ferragens para Construção enviado com sucesso!');
-    setQuoteForm({ name: '', phone: '', email: '', product: 'Ferragens para Construção', quantity: '', message: '' });
+    
+    fetch(`${process.env.REACT_APP_BACKEND_URL}/api/send-quote`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(quoteForm)
+    })
+    .then(response => response.json())
+    .then(data => {
+      if (data.status === 'success') {
+        alert('Pedido de orçamento para Ferragens para Construção enviado com sucesso!');
+        setQuoteForm({ name: '', phone: '', email: '', product: 'Ferragens para Construção', quantity: '', message: '' });
+      } else {
+        alert('Erro ao enviar pedido. Por favor, tente novamente.');
+      }
+    })
+    .catch(error => {
+      console.error('Error:', error);
+      alert('Erro ao enviar pedido. Por favor, contacte-nos diretamente.');
+    });
   };
 
   const handleInputChange = (e) => {
