@@ -208,9 +208,11 @@ const ProductCatalog = () => {
             Temos muito mais produtos disponíveis. Entre em contacto connosco para uma consulta personalizada.
           </p>
           <div className="flex justify-center">
-            <Button className="bg-[#00BFFF] hover:bg-[#0099CC] text-white px-8 py-3 rounded-xl font-semibold transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5">
-              Contactar Agora
-            </Button>
+            <a href="#hero">
+              <Button className="bg-[#00BFFF] hover:bg-[#0099CC] text-white px-8 py-3 rounded-xl font-semibold transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5">
+                Contactar Agora
+              </Button>
+            </a>
           </div>
         </div>
       </div>
