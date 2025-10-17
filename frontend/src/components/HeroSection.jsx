@@ -14,10 +14,35 @@ const HeroSection = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log('Quote request:', formData);
-    // Show success message
-    alert('Pedido de orçamento enviado com sucesso! Entraremos em contacto brevemente.');
-    setFormData({ name: '', phone: '', email: '', message: '' });
+    
+    // Send to backend
+    fetch(`${process.env.REACT_APP_BACKEND_URL}/api/send-quote`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        name: formData.name,
+        phone: formData.phone,
+        email: formData.email,
+        product: 'Pedido Geral',
+        quantity: '',
+        message: formData.message
+      })
+    })
+    .then(response => response.json())
+    .then(data => {
+      if (data.status === 'success') {
+        alert('Pedido de orçamento enviado com sucesso! Entraremos em contacto brevemente.');
+        setFormData({ name: '', phone: '', email: '', message: '' });
+      } else {
+        alert('Erro ao enviar pedido. Por favor, tente novamente ou contacte-nos diretamente.');
+      }
+    })
+    .catch(error => {
+      console.error('Error:', error);
+      alert('Erro ao enviar pedido. Por favor, tente novamente ou contacte-nos diretamente.');
+    });
   };
 
   const handleInputChange = (e) => {
