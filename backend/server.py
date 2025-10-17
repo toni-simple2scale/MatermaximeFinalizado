@@ -94,6 +94,49 @@ async def get_status_checks():
     status_checks = await db.status_checks.find().to_list(1000)
     return [StatusCheck(**status_check) for status_check in status_checks]
 
+@api_router.post("/send-quote")
+async def send_quote_email(quote: QuoteRequest):
+    # Create HTML email body
+    html_body = f"""
+    <html>
+        <body style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
+            <div style="max-width: 600px; margin: 0 auto; padding: 20px; background-color: #f9f9f9; border-radius: 10px;">
+                <h2 style="color: #00BFFF; border-bottom: 2px solid #00BFFF; padding-bottom: 10px;">
+                    Novo Pedido de Orçamento
+                </h2>
+                
+                <div style="background-color: white; padding: 20px; border-radius: 8px; margin-top: 20px;">
+                    <p style="margin: 10px 0;"><strong style="color: #00BFFF;">Nome:</strong> {quote.name}</p>
+                    <p style="margin: 10px 0;"><strong style="color: #00BFFF;">Telefone:</strong> {quote.phone}</p>
+                    <p style="margin: 10px 0;"><strong style="color: #00BFFF;">Email:</strong> {quote.email}</p>
+                    <p style="margin: 10px 0;"><strong style="color: #00BFFF;">Produto:</strong> {quote.product}</p>
+                    {f'<p style="margin: 10px 0;"><strong style="color: #00BFFF;">Quantidade:</strong> {quote.quantity}</p>' if quote.quantity else ''}
+                    
+                    <div style="margin-top: 20px; padding-top: 20px; border-top: 1px solid #eee;">
+                        <p style="margin: 10px 0;"><strong style="color: #00BFFF;">Mensagem:</strong></p>
+                        <p style="margin: 10px 0; padding: 15px; background-color: #f5f5f5; border-radius: 5px;">
+                            {quote.message if quote.message else 'Sem mensagem adicional'}
+                        </p>
+                    </div>
+                </div>
+                
+                <p style="margin-top: 20px; color: #666; font-size: 12px; text-align: center;">
+                    Este email foi enviado automaticamente através do website Matermaxime.
+                </p>
+            </div>
+        </body>
+    </html>
+    """
+    
+    subject = f"Novo Pedido de Orçamento - {quote.product} - {quote.name}"
+    
+    success = send_email(subject, html_body)
+    
+    if success:
+        return {"status": "success", "message": "Email enviado com sucesso!"}
+    else:
+        return {"status": "error", "message": "Erro ao enviar email"}
+
 # Include the router in the main app
 app.include_router(api_router)
 
