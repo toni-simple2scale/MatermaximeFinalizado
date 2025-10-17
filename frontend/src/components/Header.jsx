@@ -47,9 +47,11 @@ const Header = () => {
               <Phone className="h-4 w-4 mr-2 text-[#00BFFF]" />
               <span className="font-medium">+351 21 927 9178</span>
             </div>
-            <Button className="bg-[#00BFFF] hover:bg-[#0099CC] text-white px-6 py-2 rounded-lg transition-all duration-300 shadow-md hover:shadow-lg">
-              Pedir Orçamento
-            </Button>
+            <a href="#hero">
+              <Button className="bg-[#00BFFF] hover:bg-[#0099CC] text-white px-6 py-2 rounded-lg transition-all duration-300 shadow-md hover:shadow-lg">
+                Pedir Orçamento
+              </Button>
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
