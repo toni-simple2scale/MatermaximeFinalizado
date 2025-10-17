@@ -38,6 +38,45 @@ class StatusCheck(BaseModel):
 class StatusCheckCreate(BaseModel):
     client_name: str
 
+class QuoteRequest(BaseModel):
+    name: str
+    phone: str
+    email: EmailStr
+    product: str = "Geral"
+    quantity: str = ""
+    message: str
+
+# Email sending function
+def send_email(subject: str, body: str):
+    try:
+        smtp_host = os.getenv('SMTP_HOST')
+        smtp_port = int(os.getenv('SMTP_PORT'))
+        smtp_user = os.getenv('SMTP_USER')
+        smtp_password = os.getenv('SMTP_PASSWORD')
+        email_to = os.getenv('EMAIL_TO')
+        
+        # Create message
+        msg = MIMEMultipart('alternative')
+        msg['Subject'] = subject
+        msg['From'] = smtp_user
+        msg['To'] = email_to
+        
+        # Add HTML body
+        html_part = MIMEText(body, 'html')
+        msg.attach(html_part)
+        
+        # Send email
+        with smtplib.SMTP(smtp_host, smtp_port) as server:
+            server.starttls()
+            server.login(smtp_user, smtp_password)
+            server.send_message(msg)
+            
+        logger.info(f"Email sent successfully to {email_to}")
+        return True
+    except Exception as e:
+        logger.error(f"Failed to send email: {str(e)}")
+        return False
+
 # Add your routes to the router instead of directly to app
 @api_router.get("/")
 async def root():
