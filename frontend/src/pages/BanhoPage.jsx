@@ -254,7 +254,7 @@ const BanhoPage = () => {
                 <Input
                   type="text"
                   name="quantity"
-                  placeholder="Número de casas de banho"
+                  placeholder="Quantidade estimada"
                   value={quoteForm.quantity}
                   onChange={handleInputChange}
                   className="w-full"
