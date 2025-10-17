@@ -53,7 +53,7 @@ const HeroSection = () => {
   };
 
   return (
-    <section className="relative bg-gradient-to-br from-slate-50 to-blue-50 overflow-hidden">
+    <section id="hero" className="relative bg-gradient-to-br from-slate-50 to-blue-50 overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute inset-0" style={{
